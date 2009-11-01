@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_XskY8MSsEd6SDaH_4FWpZg" name="Music">
+  <elementImport xmi:id="_XtQ8gMSsEd6SDaH_4FWpZg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_XtRjkMSsEd6SDaH_4FWpZg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <elementImport xmi:id="_XtRjkcSsEd6SDaH_4FWpZg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+  </elementImport>
+  <elementImport xmi:id="_XtRjksSsEd6SDaH_4FWpZg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_z0rIUMVKEd6_N6ZuSVhrCQ" name="Model">
+    <packagedElement xmi:type="uml:Class" xmi:id="_2KLnIMVKEd6_N6ZuSVhrCQ" name="Model" isAbstract="true">
+      <ownedAttribute xmi:id="_cAYlMMV1Ed6uOqRp-Sm32g" name="property" aggregation="composite"/>
+      <ownedAttribute xmi:id="_cLzLAMV1Ed6uOqRp-Sm32g" name="property1" aggregation="composite"/>
+      <ownedAttribute xmi:id="_cQ8JsMV1Ed6uOqRp-Sm32g" name="property2" aggregation="composite"/>
+      <ownedAttribute xmi:id="_ccRP8MV1Ed6uOqRp-Sm32g" name="property3" aggregation="composite"/>
+      <ownedAttribute xmi:id="_cgkhIMV1Ed6uOqRp-Sm32g" name="property4" aggregation="composite"/>
+      <ownedAttribute xmi:id="_kiLAEMV1Ed67MbRNDfI5_w" name="property5" aggregation="composite"/>
+      <ownedAttribute xmi:id="_ksRXQMV1Ed67MbRNDfI5_w" name="property6" aggregation="composite"/>
+      <ownedAttribute xmi:id="_kxP94MV1Ed67MbRNDfI5_w" name="property7" aggregation="composite"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_k_FlkMV1Ed67MbRNDfI5_w" name="Class"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_lBG-0MV1Ed67MbRNDfI5_w" name="Class1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_2KMOMMVKEd6_N6ZuSVhrCQ" name="Artist"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_2KMOMcVKEd6_N6ZuSVhrCQ" name="Album">
+      <generalization xmi:id="_2KMOMsVKEd6_N6ZuSVhrCQ" general="_2KMOMMVKEd6_N6ZuSVhrCQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_2KMOM8VKEd6_N6ZuSVhrCQ" name="Track" isAbstract="true">
+      <generalization xmi:id="_2KMONMVKEd6_N6ZuSVhrCQ" general="_2KMOMcVKEd6_N6ZuSVhrCQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_2KM1QMVKEd6_N6ZuSVhrCQ" name="MP3" clientDependency="_6uijIMVKEd6_N6ZuSVhrCQ">
+      <generalization xmi:id="_2KM1QcVKEd6_N6ZuSVhrCQ" general="_2KMOM8VKEd6_N6ZuSVhrCQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_2KM1QsVKEd6_N6ZuSVhrCQ" name="WMA">
+      <generalization xmi:id="_2KM1Q8VKEd6_N6ZuSVhrCQ" general="_2KMOM8VKEd6_N6ZuSVhrCQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_5aRe4MVKEd6_N6ZuSVhrCQ" name="Tag"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_5aRe4cVKEd6_N6ZuSVhrCQ" name="Id3tagV1" clientDependency="_5aRe4sVKEd6_N6ZuSVhrCQ" isAbstract="true">
+      <interfaceRealization xmi:id="_5aRe4sVKEd6_N6ZuSVhrCQ" supplier="_5aRe4MVKEd6_N6ZuSVhrCQ" client="_5aRe4cVKEd6_N6ZuSVhrCQ" contract="_5aRe4MVKEd6_N6ZuSVhrCQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_5aSF8MVKEd6_N6ZuSVhrCQ" name="Id3tagV2" clientDependency="_5aSF8cVKEd6_N6ZuSVhrCQ" isAbstract="true">
+      <interfaceRealization xmi:id="_5aSF8cVKEd6_N6ZuSVhrCQ" supplier="_5aRe4MVKEd6_N6ZuSVhrCQ" client="_5aSF8MVKEd6_N6ZuSVhrCQ" contract="_5aRe4MVKEd6_N6ZuSVhrCQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_5aSF8sVKEd6_N6ZuSVhrCQ" name="tagv1.1">
+      <generalization xmi:id="_5aSF88VKEd6_N6ZuSVhrCQ" general="_5aRe4cVKEd6_N6ZuSVhrCQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_5aSF9MVKEd6_N6ZuSVhrCQ" name="tagv1.2">
+      <generalization xmi:id="_5aSF9cVKEd6_N6ZuSVhrCQ" general="_5aRe4cVKEd6_N6ZuSVhrCQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_5aStAMVKEd6_N6ZuSVhrCQ" name="tagv2.1">
+      <generalization xmi:id="_5aStAcVKEd6_N6ZuSVhrCQ" general="_5aSF8MVKEd6_N6ZuSVhrCQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_6uijIMVKEd6_N6ZuSVhrCQ" supplier="_5aRe4MVKEd6_N6ZuSVhrCQ" client="_2KM1QMVKEd6_N6ZuSVhrCQ"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_8Tl1ecVKEd6_N6ZuSVhrCQ" name="Serialize"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8Tl1esVKEd6_N6ZuSVhrCQ" name="XML" clientDependency="_8Tl1e8VKEd6_N6ZuSVhrCQ">
+      <interfaceRealization xmi:id="_8Tl1e8VKEd6_N6ZuSVhrCQ" supplier="_8Tl1ecVKEd6_N6ZuSVhrCQ" client="_8Tl1esVKEd6_N6ZuSVhrCQ" contract="_8Tl1ecVKEd6_N6ZuSVhrCQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_t-_f0MV1Ed67MbRNDfI5_w" name="Library" clientDependency="_0urq8MV1Ed67MbRNDfI5_w">
+      <generalization xmi:id="_1UPPEMV1Ed67MbRNDfI5_w" general="_2KLnIMVKEd6_N6ZuSVhrCQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_zXWEkMV1Ed67MbRNDfI5_w" memberEnd="_zXWEkcV1Ed67MbRNDfI5_w _zXWrocV1Ed67MbRNDfI5_w">
+      <ownedEnd xmi:id="_zXWEkcV1Ed67MbRNDfI5_w" name="src" type="_t-_f0MV1Ed67MbRNDfI5_w" association="_zXWEkMV1Ed67MbRNDfI5_w">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zXWroMV1Ed67MbRNDfI5_w" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zXWEksV1Ed67MbRNDfI5_w" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_zXWrocV1Ed67MbRNDfI5_w" name="dst" type="_2KMOM8VKEd6_N6ZuSVhrCQ" aggregation="composite" association="_zXWEkMV1Ed67MbRNDfI5_w">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zXWro8V1Ed67MbRNDfI5_w" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zXWrosV1Ed67MbRNDfI5_w" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_0urq8MV1Ed67MbRNDfI5_w" supplier="_8Tl1ecVKEd6_N6ZuSVhrCQ" client="_t-_f0MV1Ed67MbRNDfI5_w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_FTyDgMVLEd6_N6ZuSVhrCQ" name="View"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_G8IhYMVLEd6_N6ZuSVhrCQ" name="Controler">
+    <packagedElement xmi:type="uml:Class" xmi:id="_Wnb8oMVLEd6_N6ZuSVhrCQ" name="Controler" isAbstract="true"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_YnK_wMVLEd6_N6ZuSVhrCQ" name="Controler">
+      <generalization xmi:id="_bk-NoMVLEd6_N6ZuSVhrCQ" general="_Wnb8oMVLEd6_N6ZuSVhrCQ"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_IDGwgMVLEd6_N6ZuSVhrCQ" name="Observer">
+    <packagedElement xmi:type="uml:Interface" xmi:id="_M2g1IMVLEd6_N6ZuSVhrCQ" name="Observer"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_Na57oMVLEd6_N6ZuSVhrCQ" name="Observable" clientDependency="_S4zuwMVLEd6_N6ZuSVhrCQ"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_S4zuwMVLEd6_N6ZuSVhrCQ" supplier="_M2g1IMVLEd6_N6ZuSVhrCQ" client="_Na57oMVLEd6_N6ZuSVhrCQ"/>
+  </packagedElement>
+</uml:Package>
