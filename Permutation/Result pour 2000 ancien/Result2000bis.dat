@@ -1,0 +1,10 @@
+#pour 2000 essais
+#taillePermut %Error	taille erreur
+	6			0.05		1
+	7			0.2			1
+	8			0.25		1
+	9			0.35		1
+	10			0.75		1
+	11			1.4			1
+	12			1.6			1.03125
+	13			2.5			1
