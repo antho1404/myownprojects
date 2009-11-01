@@ -1,0 +1,910 @@
+
+taille permut : 10
+taille pattern : 3
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 4
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 5
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 6
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 7
+	temps BruteForce : 0
+	temps Heuristique : 0
+
+taille permut : 11
+taille pattern : 3
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 4
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 5
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 6
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 7
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 8
+	temps BruteForce : 0
+	temps Heuristique : 0
+
+taille permut : 12
+taille pattern : 3
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 4
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 5
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 6
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 7
+	temps BruteForce : 0.01
+	temps Heuristique : 0
+taille pattern : 8
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 9
+	temps BruteForce : 0
+	temps Heuristique : 0
+
+taille permut : 13
+taille pattern : 3
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 4
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 5
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 6
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 7
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 8
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 9
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 10
+	temps BruteForce : 0
+	temps Heuristique : 0
+
+taille permut : 14
+taille pattern : 3
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 4
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 5
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 6
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 7
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 8
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 9
+	temps BruteForce : 0
+	temps Heuristique : 0.01
+taille pattern : 10
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 11
+	temps BruteForce : 0
+	temps Heuristique : 0
+
+taille permut : 15
+taille pattern : 3
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 4
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 5
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 6
+	temps BruteForce : 0.01
+	temps Heuristique : 0
+taille pattern : 7
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 8
+	temps BruteForce : 0
+	temps Heuristique : 0.01
+taille pattern : 9
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 10
+	temps BruteForce : 0.01
+	temps Heuristique : 0
+taille pattern : 11
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 12
+	temps BruteForce : 0
+	temps Heuristique : 0
+
+taille permut : 16
+taille pattern : 3
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 4
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 5
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 6
+	temps BruteForce : 0.01
+	temps Heuristique : 0
+taille pattern : 7
+	temps BruteForce : 0.01
+	temps Heuristique : 0
+taille pattern : 8
+	temps BruteForce : 0.01
+	temps Heuristique : 0
+taille pattern : 9
+	temps BruteForce : 0.01
+	temps Heuristique : 0
+taille pattern : 10
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 11
+	temps BruteForce : 0.01
+	temps Heuristique : 0
+taille pattern : 12
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 13
+	temps BruteForce : 0
+	temps Heuristique : 0
+
+taille permut : 17
+taille pattern : 3
+	temps BruteForce : 0.01
+	temps Heuristique : 0
+taille pattern : 4
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 5
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 6
+	temps BruteForce : 0.01
+	temps Heuristique : 0
+taille pattern : 7
+	temps BruteForce : 0.01
+	temps Heuristique : 0
+taille pattern : 8
+	temps BruteForce : 0.01
+	temps Heuristique : 0
+taille pattern : 9
+	temps BruteForce : 0.01
+	temps Heuristique : 0
+taille pattern : 10
+	temps BruteForce : 0.01
+	temps Heuristique : 0
+taille pattern : 11
+	temps BruteForce : 0.01
+	temps Heuristique : 0
+taille pattern : 12
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 13
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 14
+	temps BruteForce : 0
+	temps Heuristique : 0
+
+taille permut : 18
+taille pattern : 3
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 4
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 5
+	temps BruteForce : 0.01
+	temps Heuristique : 0
+taille pattern : 6
+	temps BruteForce : 0
+	temps Heuristique : 0.01
+taille pattern : 7
+	temps BruteForce : 0.01
+	temps Heuristique : 0
+taille pattern : 8
+	temps BruteForce : 0.01
+	temps Heuristique : 0
+taille pattern : 9
+	temps BruteForce : 0.02
+	temps Heuristique : 0
+taille pattern : 10
+	temps BruteForce : 0.02
+	temps Heuristique : 0
+taille pattern : 11
+	temps BruteForce : 0.01
+	temps Heuristique : 0
+taille pattern : 12
+	temps BruteForce : 0.01
+	temps Heuristique : 0
+taille pattern : 13
+	temps BruteForce : 0.01
+	temps Heuristique : 0
+taille pattern : 14
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 15
+	temps BruteForce : 0
+	temps Heuristique : 0
+
+taille permut : 19
+taille pattern : 3
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 4
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 5
+	temps BruteForce : 0.01
+	temps Heuristique : 0
+taille pattern : 6
+	temps BruteForce : 0.01
+	temps Heuristique : 0.01
+taille pattern : 7
+	temps BruteForce : 0.02
+	temps Heuristique : 0
+taille pattern : 8
+	temps BruteForce : 0.03
+	temps Heuristique : 0
+taille pattern : 9
+	temps BruteForce : 0.03
+	temps Heuristique : 0.01
+taille pattern : 10
+	temps BruteForce : 0.03
+	temps Heuristique : 0
+taille pattern : 11
+	temps BruteForce : 0.04
+	temps Heuristique : 0
+taille pattern : 12
+	temps BruteForce : 0.02
+	temps Heuristique : 0
+taille pattern : 13
+	temps BruteForce : 0.01
+	temps Heuristique : 0
+taille pattern : 14
+	temps BruteForce : 0.01
+	temps Heuristique : 0
+taille pattern : 15
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 16
+	temps BruteForce : 0
+	temps Heuristique : 0
+
+taille permut : 20
+taille pattern : 3
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 4
+	temps BruteForce : 0
+	temps Heuristique : 0.01
+taille pattern : 5
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 6
+	temps BruteForce : 0.01
+	temps Heuristique : 0
+taille pattern : 7
+	temps BruteForce : 0.02
+	temps Heuristique : 0
+taille pattern : 8
+	temps BruteForce : 0.04
+	temps Heuristique : 0
+taille pattern : 9
+	temps BruteForce : 0.06
+	temps Heuristique : 0
+taille pattern : 10
+	temps BruteForce : 0.07
+	temps Heuristique : 0
+taille pattern : 11
+	temps BruteForce : 0.08
+	temps Heuristique : 0
+taille pattern : 12
+	temps BruteForce : 0.06
+	temps Heuristique : 0
+taille pattern : 13
+	temps BruteForce : 0.05
+	temps Heuristique : 0
+taille pattern : 14
+	temps BruteForce : 0.02
+	temps Heuristique : 0
+taille pattern : 15
+	temps BruteForce : 0.01
+	temps Heuristique : 0
+taille pattern : 16
+	temps BruteForce : 0
+	temps Heuristique : 0.01
+taille pattern : 17
+	temps BruteForce : 0
+	temps Heuristique : 0
+
+taille permut : 21
+taille pattern : 3
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 4
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 5
+	temps BruteForce : 0
+	temps Heuristique : 0.01
+taille pattern : 6
+	temps BruteForce : 0.01
+	temps Heuristique : 0.01
+taille pattern : 7
+	temps BruteForce : 0.03
+	temps Heuristique : 0
+taille pattern : 8
+	temps BruteForce : 0.07
+	temps Heuristique : 0.01
+taille pattern : 9
+	temps BruteForce : 0.1
+	temps Heuristique : 0.01
+taille pattern : 10
+	temps BruteForce : 0.13
+	temps Heuristique : 0
+taille pattern : 11
+	temps BruteForce : 0.15
+	temps Heuristique : 0
+taille pattern : 12
+	temps BruteForce : 0.14
+	temps Heuristique : 0
+taille pattern : 13
+	temps BruteForce : 0.1
+	temps Heuristique : 0
+taille pattern : 14
+	temps BruteForce : 0.05
+	temps Heuristique : 0
+taille pattern : 15
+	temps BruteForce : 0.03
+	temps Heuristique : 0
+taille pattern : 16
+	temps BruteForce : 0.01
+	temps Heuristique : 0.01
+taille pattern : 17
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 18
+	temps BruteForce : 0
+	temps Heuristique : 0
+
+taille permut : 22
+taille pattern : 3
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 4
+	temps BruteForce : 0.01
+	temps Heuristique : 0
+taille pattern : 5
+	temps BruteForce : 0
+	temps Heuristique : 0.01
+taille pattern : 6
+	temps BruteForce : 0.02
+	temps Heuristique : 0.03
+taille pattern : 7
+	temps BruteForce : 0.04
+	temps Heuristique : 0.03
+taille pattern : 8
+	temps BruteForce : 0.09
+	temps Heuristique : 0.03
+taille pattern : 9
+	temps BruteForce : 0.18
+	temps Heuristique : 0.03
+taille pattern : 10
+	temps BruteForce : 0.23
+	temps Heuristique : 0.05
+taille pattern : 11
+	temps BruteForce : 0.31
+	temps Heuristique : 0.09
+taille pattern : 12
+	temps BruteForce : 0.26
+	temps Heuristique : 0.02
+taille pattern : 13
+	temps BruteForce : 0.22
+	temps Heuristique : 0.03
+taille pattern : 14
+	temps BruteForce : 0.14
+	temps Heuristique : 0.01
+taille pattern : 15
+	temps BruteForce : 0.09
+	temps Heuristique : 0
+taille pattern : 16
+	temps BruteForce : 0.04
+	temps Heuristique : 0
+taille pattern : 17
+	temps BruteForce : 0.02
+	temps Heuristique : 0
+taille pattern : 18
+	temps BruteForce : 0
+	temps Heuristique : 0.01
+taille pattern : 19
+	temps BruteForce : 0
+	temps Heuristique : 0
+
+taille permut : 23
+taille pattern : 3
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 4
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 5
+	temps BruteForce : 0.01
+	temps Heuristique : 0
+taille pattern : 6
+	temps BruteForce : 0.03
+	temps Heuristique : 0.01
+taille pattern : 7
+	temps BruteForce : 0.1
+	temps Heuristique : 0.02
+taille pattern : 8
+	temps BruteForce : 0.16
+	temps Heuristique : 0.02
+taille pattern : 9
+	temps BruteForce : 0.26
+	temps Heuristique : 0
+taille pattern : 10
+	temps BruteForce : 0.44
+	temps Heuristique : 0.01
+taille pattern : 11
+	temps BruteForce : 0.51
+	temps Heuristique : 0
+taille pattern : 12
+	temps BruteForce : 0.66
+	temps Heuristique : 0
+taille pattern : 13
+	temps BruteForce : 0.51
+	temps Heuristique : 0.01
+taille pattern : 14
+	temps BruteForce : 0.42
+	temps Heuristique : 0.02
+taille pattern : 15
+	temps BruteForce : 0.25
+	temps Heuristique : 0
+taille pattern : 16
+	temps BruteForce : 0.13
+	temps Heuristique : 0
+taille pattern : 17
+	temps BruteForce : 0.05
+	temps Heuristique : 0.02
+taille pattern : 18
+	temps BruteForce : 0.02
+	temps Heuristique : 0
+taille pattern : 19
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 20
+	temps BruteForce : 0.01
+	temps Heuristique : 0
+
+taille permut : 24
+taille pattern : 3
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 4
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 5
+	temps BruteForce : 0.01
+	temps Heuristique : 0.01
+taille pattern : 6
+	temps BruteForce : 0.03
+	temps Heuristique : 0.01
+taille pattern : 7
+	temps BruteForce : 0.11
+	temps Heuristique : 0
+taille pattern : 8
+	temps BruteForce : 0.25
+	temps Heuristique : 0
+taille pattern : 9
+	temps BruteForce : 0.49
+	temps Heuristique : 0.16
+taille pattern : 10
+	temps BruteForce : 0.73
+	temps Heuristique : 0
+taille pattern : 11
+	temps BruteForce : 1.16
+	temps Heuristique : 0
+taille pattern : 12
+	temps BruteForce : 1.36
+	temps Heuristique : 0.01
+taille pattern : 13
+	temps BruteForce : 1.21
+	temps Heuristique : 0
+taille pattern : 14
+	temps BruteForce : 1.08
+	temps Heuristique : 0
+taille pattern : 15
+	temps BruteForce : 0.71
+	temps Heuristique : 0
+taille pattern : 16
+	temps BruteForce : 0.44
+	temps Heuristique : 0
+taille pattern : 17
+	temps BruteForce : 0.23
+	temps Heuristique : 0
+taille pattern : 18
+	temps BruteForce : 0.09
+	temps Heuristique : 0
+taille pattern : 19
+	temps BruteForce : 0.04
+	temps Heuristique : 0
+taille pattern : 20
+	temps BruteForce : 0.01
+	temps Heuristique : 0
+taille pattern : 21
+	temps BruteForce : 0
+	temps Heuristique : 0
+
+taille permut : 25
+taille pattern : 3
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 4
+	temps BruteForce : 0
+	temps Heuristique : 0.01
+taille pattern : 5
+	temps BruteForce : 0.01
+	temps Heuristique : 0
+taille pattern : 6
+	temps BruteForce : 0.06
+	temps Heuristique : 0.04
+taille pattern : 7
+	temps BruteForce : 0.15
+	temps Heuristique : 0.01
+taille pattern : 8
+	temps BruteForce : 0.36
+	temps Heuristique : 0.02
+taille pattern : 9
+	temps BruteForce : 0.68
+	temps Heuristique : 0
+taille pattern : 10
+	temps BruteForce : 1.21
+	temps Heuristique : 0.01
+taille pattern : 11
+	temps BruteForce : 1.77
+	temps Heuristique : 0
+taille pattern : 12
+	temps BruteForce : 2.25
+	temps Heuristique : 0
+taille pattern : 13
+	temps BruteForce : 2.45
+	temps Heuristique : 0
+taille pattern : 14
+	temps BruteForce : 2.66
+	temps Heuristique : 0
+taille pattern : 15
+	temps BruteForce : 1.67
+	temps Heuristique : 0
+taille pattern : 16
+	temps BruteForce : 1.12
+	temps Heuristique : 0
+taille pattern : 17
+	temps BruteForce : 0.63
+	temps Heuristique : 0
+taille pattern : 18
+	temps BruteForce : 0.33
+	temps Heuristique : 0
+taille pattern : 19
+	temps BruteForce : 0.12
+	temps Heuristique : 0
+taille pattern : 20
+	temps BruteForce : 0.05
+	temps Heuristique : 0
+taille pattern : 21
+	temps BruteForce : 0.01
+	temps Heuristique : 0
+taille pattern : 22
+	temps BruteForce : 0
+	temps Heuristique : 0
+
+taille permut : 26
+taille pattern : 3
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 4
+	temps BruteForce : 0.01
+	temps Heuristique : 0
+taille pattern : 5
+	temps BruteForce : 0.01
+	temps Heuristique : 0.02
+taille pattern : 6
+	temps BruteForce : 0.06
+	temps Heuristique : 0.11
+taille pattern : 7
+	temps BruteForce : 0.19
+	temps Heuristique : 0.01
+taille pattern : 8
+	temps BruteForce : 0.5
+	temps Heuristique : 0.01
+taille pattern : 9
+	temps BruteForce : 1.17
+	temps Heuristique : 0.27
+taille pattern : 10
+	temps BruteForce : 1.88
+	temps Heuristique : 0.14
+taille pattern : 11
+	temps BruteForce : 3.27
+	temps Heuristique : 0
+taille pattern : 12
+	temps BruteForce : 4.34
+	temps Heuristique : 0.12
+taille pattern : 13
+	temps BruteForce : 5.14
+	temps Heuristique : 0.01
+taille pattern : 14
+	temps BruteForce : 5.18
+	temps Heuristique : 0
+taille pattern : 15
+	temps BruteForce : 4.43
+	temps Heuristique : 0.01
+taille pattern : 16
+	temps BruteForce : 3.17
+	temps Heuristique : 0.01
+taille pattern : 17
+	temps BruteForce : 1.78
+	temps Heuristique : 0
+taille pattern : 18
+	temps BruteForce : 1.16
+	temps Heuristique : 0.01
+taille pattern : 19
+	temps BruteForce : 0.46
+	temps Heuristique : 0
+taille pattern : 20
+	temps BruteForce : 0.17
+	temps Heuristique : 0
+taille pattern : 21
+	temps BruteForce : 0.05
+	temps Heuristique : 0
+taille pattern : 22
+	temps BruteForce : 0.01
+	temps Heuristique : 0
+taille pattern : 23
+	temps BruteForce : 0.01
+	temps Heuristique : 0
+
+taille permut : 27
+taille pattern : 3
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 4
+	temps BruteForce : 0
+	temps Heuristique : 0.01
+taille pattern : 5
+	temps BruteForce : 0.01
+	temps Heuristique : 0.04
+taille pattern : 6
+	temps BruteForce : 0.07
+	temps Heuristique : 0.07
+taille pattern : 7
+	temps BruteForce : 0.25
+	temps Heuristique : 0.14
+taille pattern : 8
+	temps BruteForce : 0.68
+	temps Heuristique : 0.3
+taille pattern : 9
+	temps BruteForce : 1.52
+	temps Heuristique : 0.35
+taille pattern : 10
+	temps BruteForce : 3.2
+	temps Heuristique : 1.02
+taille pattern : 11
+	temps BruteForce : 5.4
+	temps Heuristique : 1.19
+taille pattern : 12
+	temps BruteForce : 7.82
+	temps Heuristique : 0.37
+taille pattern : 13
+	temps BruteForce : 9.04
+	temps Heuristique : 0.05
+taille pattern : 14
+	temps BruteForce : 9.56
+	temps Heuristique : 0.06
+taille pattern : 15
+	temps BruteForce : 9.27
+	temps Heuristique : 0.05
+taille pattern : 16
+	temps BruteForce : 6.93
+	temps Heuristique : 0
+taille pattern : 17
+	temps BruteForce : 4.7
+	temps Heuristique : 0.09
+taille pattern : 18
+	temps BruteForce : 2.85
+	temps Heuristique : 0
+taille pattern : 19
+	temps BruteForce : 1.49
+	temps Heuristique : 0.04
+taille pattern : 20
+	temps BruteForce : 0.59
+	temps Heuristique : 0.01
+taille pattern : 21
+	temps BruteForce : 0.2
+	temps Heuristique : 0
+taille pattern : 22
+	temps BruteForce : 0.06
+	temps Heuristique : 0.01
+taille pattern : 23
+	temps BruteForce : 0.01
+	temps Heuristique : 0.01
+taille pattern : 24
+	temps BruteForce : 0
+	temps Heuristique : 0
+
+taille permut : 28
+taille pattern : 3
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 4
+	temps BruteForce : 0.01
+	temps Heuristique : 0
+taille pattern : 5
+	temps BruteForce : 0.03
+	temps Heuristique : 0.03
+taille pattern : 6
+	temps BruteForce : 0.12
+	temps Heuristique : 0.11
+taille pattern : 7
+	temps BruteForce : 0.35
+	temps Heuristique : 0.27
+taille pattern : 8
+	temps BruteForce : 0.97
+	temps Heuristique : 0.4
+taille pattern : 9
+	temps BruteForce : 2.5
+	temps Heuristique : 0.56
+taille pattern : 10
+	temps BruteForce : 4.64
+	temps Heuristique : 1.63
+taille pattern : 11
+	temps BruteForce : 8.26
+	temps Heuristique : 2.7
+taille pattern : 12
+	temps BruteForce : 12.41
+	temps Heuristique : 0.15
+taille pattern : 13
+	temps BruteForce : 16.31
+	temps Heuristique : 1.98
+taille pattern : 14
+	temps BruteForce : 18.48
+	temps Heuristique : 7.3
+taille pattern : 15
+	temps BruteForce : 17.47
+	temps Heuristique : 0.18
+taille pattern : 16
+	temps BruteForce : 15.34
+	temps Heuristique : 0.07
+taille pattern : 17
+	temps BruteForce : 11.47
+	temps Heuristique : 0.75
+taille pattern : 18
+	temps BruteForce : 8.63
+	temps Heuristique : 0.05
+taille pattern : 19
+	temps BruteForce : 4.1
+	temps Heuristique : 0.02
+taille pattern : 20
+	temps BruteForce : 2.24
+	temps Heuristique : 0.04
+taille pattern : 21
+	temps BruteForce : 0.79
+	temps Heuristique : 0
+taille pattern : 22
+	temps BruteForce : 0.27
+	temps Heuristique : 0
+taille pattern : 23
+	temps BruteForce : 0.07
+	temps Heuristique : 0
+taille pattern : 24
+	temps BruteForce : 0.01
+	temps Heuristique : 0
+taille pattern : 25
+	temps BruteForce : 0.01
+	temps Heuristique : 0
+
+taille permut : 29
+taille pattern : 3
+	temps BruteForce : 0
+	temps Heuristique : 0
+taille pattern : 4
+	temps BruteForce : 0.01
+	temps Heuristique : 0
+taille pattern : 5
+	temps BruteForce : 0.03
+	temps Heuristique : 0.02
+taille pattern : 6
+	temps BruteForce : 0.12
+	temps Heuristique : 0.09
+taille pattern : 7
+	temps BruteForce : 0.43
+	temps Heuristique : 0.25
+taille pattern : 8
+	temps BruteForce : 1.36
+	temps Heuristique : 0.22
+taille pattern : 9
+	temps BruteForce : 3.37
+	temps Heuristique : 0.39
+taille pattern : 10
+	temps BruteForce : 7.26
+	temps Heuristique : 0.72
+taille pattern : 11
+	temps BruteForce : 14.04
+	temps Heuristique : 0.08
+taille pattern : 12
+	temps BruteForce : 22.45
+	temps Heuristique : 2.17
+taille pattern : 13
+	temps BruteForce : 30.62
+	temps Heuristique : 0.6
+taille pattern : 14
+	temps BruteForce : 40.16
+	temps Heuristique : 0.2
+taille pattern : 15
+	temps BruteForce : 39.09
+	temps Heuristique : 0.1
+taille pattern : 16
+	temps BruteForce : 35.58
+	temps Heuristique : 0.01
+taille pattern : 17
+	temps BruteForce : 29.71
+	temps Heuristique : 0.06
+taille pattern : 18
+	temps BruteForce : 20.6
+	temps Heuristique : 0
+taille pattern : 19
+	temps BruteForce : 12.61
+	temps Heuristique : 0.26
+taille pattern : 20
+	temps BruteForce : 6.77
+	temps Heuristique : 0.02
+taille pattern : 21
+	temps BruteForce : 3.18
+	temps Heuristique : 0.01
+taille pattern : 22
+	temps BruteForce : 1.15
+	temps Heuristique : 0.02
+taille pattern : 23
+	temps BruteForce : 0.38
+	temps Heuristique : 0.01
+taille pattern : 24
+	temps BruteForce : 0.11
+	temps Heuristique : 0
+taille pattern : 25
+	temps BruteForce : 0.02
+	temps Heuristique : 0.01
+taille pattern : 26
+	temps BruteForce : 0
+	temps Heuristique : 0
