@@ -1,0 +1,17 @@
+0 : andorre
+1 : Montpellier
+2 : Marseille
+3 : Lyon
+4 : Dijon
+5 : Besancon
+6 : Strasbourg
+7 : Metz
+8 : Châlon
+9 : Amiens
+10 : Rouen
+11 : Rennes
+12 : Nantes
+13 : Paris
+14 : Limoge
+15 : Bordeau
+16 : Toulouse
