@@ -1,0 +1,11 @@
+set title "Resultat pour 2000"
+set xlabel "taille permutation"
+set ylabel "pourcentage d'erreurs"
+set xrang [6:15]
+set yrange [0:10]
+set grid
+
+set terminal postscript eps color enhanced
+set output "Result2000.eps"
+
+plot "Result2000.dat" using 1:2 title 'Errors' with linespoints 7

@@ -1,0 +1,11 @@
+set title "Pourcentage d'erreurs de l'heuristique"
+set xlabel "taille permutation"
+set ylabel "erreurs (%)"
+set xrange [6:15]
+set yrange [0:10]
+set grid
+
+set terminal postscript eps color enhanced font 'Times-Romant' 24
+set output "Result2000bis.eps"
+
+plot "Result2000bis.dat" using 1:2 title 'Erreurs' with linespoints 7
