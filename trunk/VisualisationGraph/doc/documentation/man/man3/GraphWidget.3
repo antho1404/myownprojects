@@ -1,0 +1,109 @@
+.TH "GraphWidget" 3 "1 Mar 2010" "Outil pÃ©dagogique pour la comprÃ©hension d'algorithmes de graphes" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+GraphWidget \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <GraphWidget.h>\fP
+.PP
+Inherits \fBObserver\fP.
+.SS "Public Slots"
+
+.in +1c
+.ti -1c
+.RI "void \fBvalidNode\fP (int node)"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBGraphWidget\fP (\fBMainFrame\fP *parent, \fBControllerModel\fP *\fBctrl\fP)"
+.br
+.ti -1c
+.RI "\fB~GraphWidget\fP ()"
+.br
+.ti -1c
+.RI "void \fBitemMoved\fP ()"
+.br
+.ti -1c
+.RI "\fBNode\fP * \fBcreateNode\fP (int size, string num, string tag, string state)"
+.br
+.ti -1c
+.RI "\fBNode\fP * \fBcreateNode\fP (string num, string tag, string state, int x, int y)"
+.br
+.ti -1c
+.RI "\fBEdge\fP * \fBcreateEdge\fP (\fBNode\fP *source, \fBNode\fP *dest, int value, int state)"
+.br
+.ti -1c
+.RI "QGraphicsScene * \fBgetScene\fP ()"
+.br
+.ti -1c
+.RI "void \fBupdate\fP (unsigned int size, list< string * > *summit, list< int * > *edges)"
+.br
+.ti -1c
+.RI "void \fBresize\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetAnnimated\fP (bool b)"
+.br
+.ti -1c
+.RI "void \fBshowEdgesValues\fP (bool b)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBControllerModel\fP * \fBctrl\fP"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBtimerEvent\fP (QTimerEvent *event)"
+.br
+.ti -1c
+.RI "void \fBdrawBackground\fP (QPainter *painter, const QRectF &rect)"
+.br
+.ti -1c
+.RI "void \fBmouseDoubleClickEvent\fP (QMouseEvent *event)"
+.br
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "GraphWidget::GraphWidget (\fBMainFrame\fP * parent, \fBControllerModel\fP * ctrl)"\fBAuthor:\fP
+.RS 4
+Estebe Anthony 
+.RE
+.PP
+
+.SS "GraphWidget::~GraphWidget ()"
+.SH "Member Function Documentation"
+.PP 
+.SS "\fBEdge\fP * GraphWidget::createEdge (\fBNode\fP * source, \fBNode\fP * dest, int value, int state)"
+.SS "\fBNode\fP * GraphWidget::createNode (string num, string tag, string state, int x, int y)"
+.SS "\fBNode\fP * GraphWidget::createNode (int size, string num, string tag, string state)"
+.SS "void GraphWidget::drawBackground (QPainter * painter, const QRectF & rect)\fC [protected]\fP"
+.SS "QGraphicsScene * GraphWidget::getScene ()"
+.SS "void GraphWidget::itemMoved ()"
+.SS "void GraphWidget::mouseDoubleClickEvent (QMouseEvent * event)\fC [protected]\fP"
+.SS "void GraphWidget::resize ()"
+.SS "void GraphWidget::setAnnimated (bool b)"
+.SS "void GraphWidget::showEdgesValues (bool b)"
+.SS "void GraphWidget::timerEvent (QTimerEvent * event)\fC [protected]\fP"
+.SS "void GraphWidget::update (unsigned int size, list< string * > * summit, list< int * > * edges)\fC [virtual]\fP"
+.PP
+Implements \fBObserver\fP.
+.SS "void GraphWidget::validNode (int node)\fC [slot]\fP"
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBControllerModel\fP* \fBGraphWidget::ctrl\fP"
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Outil pÃ©dagogique pour la comprÃ©hension d'algorithmes de graphes from the source code.

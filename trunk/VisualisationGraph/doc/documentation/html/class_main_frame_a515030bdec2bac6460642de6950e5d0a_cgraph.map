@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" href="$class_tools_bar.html#a786eca65092aeb2fb97539d5aa3275a4" title="ToolsBar::getAlgo" alt="" coords="240,5,363,35"/>
+<area shape="rect" href="$class_controller_model.html#aa34843a4a73a74b2ebedf42223a792ad" title="ControllerModel::setAlgo" alt="" coords="220,59,383,88"/>
+<area shape="rect" href="$class_config_graph.html#ace1a16938ec6c628c29177884bc45304" title="ConfigGraph::setEnableRunButton" alt="" coords="192,112,411,141"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="G" name="G">
+<area shape="rect" href="$class_graph.html#aed33bcfd30446a62d8cfb2b994395edd" title="Function that permit to know if the nodeA is predecessor of the nodeB." alt="" coords="199,5,345,35"/>
+<area shape="rect" href="$class_graph.html#a268f7e763ddc3b04bdd4296a25362cc9" title="Function that permit to know if the nodeA is successor of the nodeB." alt="" coords="395,5,531,35"/>
+</map>

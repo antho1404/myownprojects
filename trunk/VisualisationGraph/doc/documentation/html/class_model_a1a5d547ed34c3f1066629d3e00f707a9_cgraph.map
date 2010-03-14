@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" href="$class_graph.html#a87532d377064facfd179a40dd61fe909" title="Add new edge in the graph." alt="" coords="213,85,328,115"/>
+<area shape="rect" href="$class_abstract_model.html#a2a287b123b5ea9ce2303cf0ec1dac573" title="AbstractModel::notifyObserver" alt="" coords="172,139,369,168"/>
+<area shape="rect" href="$class_graph.html#a0d392b1990a1f37ec8e00857631633b2" title="Assign a state of the edge." alt="" coords="199,192,343,221"/>
+<area shape="rect" href="$class_graph.html#a5952e61828ea18e3133959b125b122ac" title="Assign a value to the edge nodeA, nodeB." alt="" coords="199,245,343,275"/>
+<area shape="rect" href="$class_graph.html#aaff1cd439b2d8aa39910741a34c72d4d" title="function that permit to get all edges of the graph" alt="" coords="427,87,547,116"/>
+<area shape="rect" href="$class_graph.html#a6707f01afb727e8e5ca93e140a3316cc" title="Get the order of the graph." alt="" coords="617,165,732,195"/>
+<area shape="rect" href="$class_graph.html#a2c38bbfd88b1f59f2cb10b1e9106c8bd" title="function that permit to get all summit of the graph" alt="" coords="420,191,553,220"/>
+<area shape="rect" href="$class_graph.html#adad06e54e2163cfeb80415123bc88c25" title="Function that permit to know the the state of the edge nodeA, nodeB." alt="" coords="603,5,747,35"/>
+<area shape="rect" href="$class_graph.html#a91fad353cc4f8e604db8fb4c24c5ab8a" title="Function that permit to know the value of the edge nodeA, nodeB." alt="" coords="603,59,747,88"/>
+<area shape="rect" href="$class_graph.html#a268f7e763ddc3b04bdd4296a25362cc9" title="Function that permit to know if the nodeA is successor of the nodeB." alt="" coords="607,112,743,141"/>
+</map>

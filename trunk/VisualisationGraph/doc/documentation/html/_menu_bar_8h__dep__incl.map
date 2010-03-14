@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" href="$_main_frame_8h.html" title="src/view/MainFrame.h" alt="" coords="220,83,367,112"/>
+<area shape="rect" href="$_menu_bar_8cpp.html" title="src/view/MenuBar.cpp" alt="" coords="391,83,540,112"/>
+<area shape="rect" href="$main_8cpp.html" title="src/main.cpp" alt="" coords="5,160,101,189"/>
+<area shape="rect" href="$_config_graph_8h.html" title="src/view/ConfigGraph.h" alt="" coords="125,160,280,189"/>
+<area shape="rect" href="$_main_frame_8cpp.html" title="src/view/MainFrame.cpp" alt="" coords="304,160,467,189"/>
+<area shape="rect" href="$_node_8cpp.html" title="src/view/Node.cpp" alt="" coords="491,160,619,189"/>
+<area shape="rect" href="$_tools_bar_8cpp.html" title="src/view/ToolsBar.cpp" alt="" coords="643,160,792,189"/>
+<area shape="rect" href="$_config_graph_8cpp.html" title="src/view/ConfigGraph.cpp" alt="" coords="117,237,288,267"/>
+</map>

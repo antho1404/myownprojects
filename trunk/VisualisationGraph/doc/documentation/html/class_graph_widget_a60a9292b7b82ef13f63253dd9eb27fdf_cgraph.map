@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" href="$class_node.html#a7fd57dccb57f67113c2894d0d52da537" title="Node::getNumber" alt="" coords="243,5,365,35"/>
+<area shape="rect" href="$class_graph_widget.html#a4a3c779872d2bf8f6154a7df93185df6" title="GraphWidget::getScene" alt="" coords="224,59,384,88"/>
+<area shape="rect" href="$class_edge.html#a91b597b9d895093c56ed9be6bfe6eddb" title="Edge::setState" alt="" coords="251,112,357,141"/>
+</map>

@@ -1,0 +1,66 @@
+.TH "AlgoLoader" 3 "1 Mar 2010" "Outil pÃ©dagogique pour la comprÃ©hension d'algorithmes de graphes" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+AlgoLoader \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <AlgoLoader.h>\fP
+.PP
+Inherits \fBAlgoIO\fP.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBAlgoLoader\fP ()"
+.br
+.ti -1c
+.RI "virtual string \fBsaveAlgo\fP (string title, string src, bool fromFile)"
+.br
+.ti -1c
+.RI "virtual \fBAlgo\fP * \fBimportAlgo\fP (string algo)"
+.br
+.ti -1c
+.RI "virtual void \fBcloseAlgo\fP (\fBAlgo\fP *a)"
+.br
+.ti -1c
+.RI "virtual string \fBdeleteAlgo\fP (string name)"
+.br
+.ti -1c
+.RI "virtual list< string > * \fBfindAll\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+\fBAuthor:\fP
+.RS 4
+Estebe Anthony 
+.RE
+.PP
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "AlgoLoader::AlgoLoader ()"
+.SH "Member Function Documentation"
+.PP 
+.SS "void AlgoLoader::closeAlgo (\fBAlgo\fP * a)\fC [virtual]\fP"
+.PP
+Implements \fBAlgoIO\fP.
+.SS "string AlgoLoader::deleteAlgo (string name)\fC [virtual]\fP"
+.PP
+Implements \fBAlgoIO\fP.
+.SS "list< string > * AlgoLoader::findAll ()\fC [virtual]\fP"
+.PP
+Implements \fBAlgoIO\fP.
+.SS "\fBAlgo\fP * AlgoLoader::importAlgo (string algo)\fC [virtual]\fP"
+.PP
+Implements \fBAlgoIO\fP.
+.SS "string AlgoLoader::saveAlgo (string title, string src, bool fromFile)\fC [virtual]\fP"
+.PP
+Implements \fBAlgoIO\fP.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Outil pÃ©dagogique pour la comprÃ©hension d'algorithmes de graphes from the source code.

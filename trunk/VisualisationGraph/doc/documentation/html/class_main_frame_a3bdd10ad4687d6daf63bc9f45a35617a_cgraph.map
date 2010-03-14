@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" href="$class_tools_bar.html#aa7619dc0cf4e6806aaf11f23858048d8" title="ToolsBar::getAlgoIndex" alt="" coords="229,5,384,35"/>
+<area shape="rect" href="$class_config_graph.html#a41060b69d5d9334b8998b733f19adf9f" title="ConfigGraph::getAlgoSpeed" alt="" coords="216,59,397,88"/>
+<area shape="rect" href="$class_config_graph.html#a568dbb0260090e6446f72ed41c5f2408" title="ConfigGraph::getAnimated" alt="" coords="220,112,393,141"/>
+<area shape="rect" href="$class_config_graph.html#a31bc0dd9abfae638b3cb1311797a27f7" title="ConfigGraph::getInteraction" alt="" coords="217,165,396,195"/>
+<area shape="rect" href="$class_config_graph.html#a317a1d24258398b68087e90b8303cc16" title="ConfigGraph::getValueVisible" alt="" coords="212,219,401,248"/>
+</map>

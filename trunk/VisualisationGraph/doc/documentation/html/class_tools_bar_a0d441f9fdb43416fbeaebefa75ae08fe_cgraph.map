@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" href="$class_main_frame.html#a34510cced55100c21b0e779fe924fb7e" title="MainFrame::getAlgoList" alt="" coords="201,5,359,35"/>
+<area shape="rect" href="$class_controller_model.html#a74f04add49f662a428b1e32e98e4c419" title="ControllerModel::getAlgoList" alt="" coords="408,5,592,35"/>
+<area shape="rect" href="$class_abstract_model.html#a16479910d69f5ffccb1c77788ce29108" title="AbstractModel::getAlgoList" alt="" coords="640,5,819,35"/>
+</map>

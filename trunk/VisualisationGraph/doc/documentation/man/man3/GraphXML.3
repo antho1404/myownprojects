@@ -1,0 +1,51 @@
+.TH "GraphXML" 3 "1 Mar 2010" "Outil pÃ©dagogique pour la comprÃ©hension d'algorithmes de graphes" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+GraphXML \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <GraphXml.h>\fP
+.PP
+Inherits \fBGraphIO\fP.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBGraphXML\fP ()"
+.br
+.ti -1c
+.RI "virtual void \fBexportGraph\fP (\fBGraph\fP *g, string dir)"
+.br
+.ti -1c
+.RI "virtual \fBGraph\fP * \fBimportGraph\fP (string graph, bool file)"
+.br
+.ti -1c
+.RI "virtual list< string > * \fBfindAll\fP ()"
+.br
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "GraphXML::GraphXML ()"\fBAuthor:\fP
+.RS 4
+Estebe Anthony 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "void GraphXML::exportGraph (\fBGraph\fP * g, string dir)\fC [virtual]\fP"
+.PP
+Implements \fBGraphIO\fP.
+.SS "list< string > * GraphXML::findAll ()\fC [virtual]\fP"
+.PP
+Implements \fBGraphIO\fP.
+.SS "\fBGraph\fP * GraphXML::importGraph (string graph, bool file)\fC [virtual]\fP"
+.PP
+Implements \fBGraphIO\fP.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Outil pÃ©dagogique pour la comprÃ©hension d'algorithmes de graphes from the source code.

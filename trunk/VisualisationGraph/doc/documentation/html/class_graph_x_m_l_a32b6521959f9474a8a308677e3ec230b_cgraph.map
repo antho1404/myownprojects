@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" href="$class_graph.html#a87532d377064facfd179a40dd61fe909" title="Add new edge in the graph." alt="" coords="231,5,345,35"/>
+<area shape="rect" href="$class_graph.html#a2586b990f5a1ca1b674f141aa5c736bb" title="Add a node to the graph." alt="" coords="231,59,345,88"/>
+<area shape="rect" href="$class_graph_x_m_l.html#a255cdb7d8ee4ca11dd4997f9baab0836" title="GraphXML::findAll" alt="" coords="224,112,352,141"/>
+<area shape="rect" href="$class_graph.html#a0d392b1990a1f37ec8e00857631633b2" title="Assign a state of the edge." alt="" coords="216,165,360,195"/>
+<area shape="rect" href="$class_graph.html#a5952e61828ea18e3133959b125b122ac" title="Assign a value to the edge nodeA, nodeB." alt="" coords="216,219,360,248"/>
+<area shape="rect" href="$class_graph.html#a9d632db4f49078b31feafe7422561693" title="Function that change the state of a node." alt="" coords="232,272,344,301"/>
+<area shape="rect" href="$class_graph.html#a4f3dd7fd4c00a5ca3f03c291068c49e9" title="Function that change the tag of a node." alt="" coords="236,325,340,355"/>
+</map>

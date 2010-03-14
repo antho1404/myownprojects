@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" href="$class_abstract_model.html#af767241d41a322a94b92c40eeb4147c6" title="AbstractModel::addObserver" alt="" coords="212,5,399,35"/>
+<area shape="rect" href="$class_main_frame.html#af3d8b05d17451320814d94499a36bc87" title="MainFrame::showFullScreen" alt="" coords="213,59,397,88"/>
+<area shape="rect" href="$class_main_frame.html#ab5da373b68238527973a29b8b84f3de7" title="MainFrame::stopAlgo" alt="" coords="233,112,377,141"/>
+<area shape="rect" href="$class_config_graph.html#ace1a16938ec6c628c29177884bc45304" title="ConfigGraph::setEnableRunButton" alt="" coords="448,112,667,141"/>
+</map>

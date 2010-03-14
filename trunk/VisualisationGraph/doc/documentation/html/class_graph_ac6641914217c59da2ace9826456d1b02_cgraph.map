@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" href="$class_graph.html#a88318feb4aeae675c1538bf8fd760657" title="Find the neighbors of a node." alt="" coords="219,5,339,35"/>
+<area shape="rect" href="$class_graph.html#a563baae707cd96374a271bf6bc739ceb" title="Function that permit to know if the nodeA is a neighbor of the nodeB." alt="" coords="387,5,512,35"/>
+<area shape="rect" href="$class_graph.html#a268f7e763ddc3b04bdd4296a25362cc9" title="Function that permit to know if the nodeA is successor of the nodeB." alt="" coords="560,5,696,35"/>
+</map>

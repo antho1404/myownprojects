@@ -1,0 +1,103 @@
+.TH "ControllerModel" 3 "1 Mar 2010" "Outil pÃ©dagogique pour la comprÃ©hension d'algorithmes de graphes" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ControllerModel \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <ControllerModel.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBControllerModel\fP (\fBAbstractModel\fP *m)"
+.br
+.ti -1c
+.RI "virtual \fB~ControllerModel\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetNodeSelected\fP (int node)"
+.br
+.ti -1c
+.RI "void \fBaddNode\fP (string tag, int state)"
+.br
+.ti -1c
+.RI "void \fBaddEdge\fP (int nodeA, int nodeB, int value, int state)"
+.br
+.ti -1c
+.RI "void \fBimportGraph\fP (string name, bool file)"
+.br
+.ti -1c
+.RI "void \fBnewGraph\fP ()"
+.br
+.ti -1c
+.RI "void \fBgenerateGraph\fP ()"
+.br
+.ti -1c
+.RI "void \fBexportGraph\fP (string dir)"
+.br
+.ti -1c
+.RI "string \fBaddAlgorithm\fP (string name, string src)"
+.br
+.ti -1c
+.RI "string \fBremoveAlgorithm\fP (string name)"
+.br
+.ti -1c
+.RI "void \fBsetAlgo\fP (string algo)"
+.br
+.ti -1c
+.RI "void \fBrun\fP ()"
+.br
+.ti -1c
+.RI "void \fBchangeAlgoSpeed\fP (int speed)"
+.br
+.ti -1c
+.RI "void \fBchangeAlgoInteraction\fP (int flag)"
+.br
+.ti -1c
+.RI "list< string > * \fBgetAlgoList\fP ()"
+.br
+.ti -1c
+.RI "list< string > * \fBgetGraphList\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+\fBAuthor:\fP
+.RS 4
+Estebe Anthony 
+.RE
+.PP
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "ControllerModel::ControllerModel (\fBAbstractModel\fP * m)"\fBAuthor:\fP
+.RS 4
+Estebe Anthony 
+.RE
+.PP
+
+.SS "ControllerModel::~ControllerModel ()\fC [virtual]\fP"
+.SH "Member Function Documentation"
+.PP 
+.SS "string ControllerModel::addAlgorithm (string name, string src)"
+.SS "void ControllerModel::addEdge (int nodeA, int nodeB, int value, int state)"
+.SS "void ControllerModel::addNode (string tag, int state)"
+.SS "void ControllerModel::changeAlgoInteraction (int flag)"
+.SS "void ControllerModel::changeAlgoSpeed (int speed)"
+.SS "void ControllerModel::exportGraph (string dir)"
+.SS "void ControllerModel::generateGraph ()"
+.SS "list< string > * ControllerModel::getAlgoList ()"
+.SS "list< string > * ControllerModel::getGraphList ()"
+.SS "void ControllerModel::importGraph (string name, bool file)"
+.SS "void ControllerModel::newGraph ()"
+.SS "string ControllerModel::removeAlgorithm (string name)"
+.SS "void ControllerModel::run ()"
+.SS "void ControllerModel::setAlgo (string algo)"
+.SS "void ControllerModel::setNodeSelected (int node)"
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Outil pÃ©dagogique pour la comprÃ©hension d'algorithmes de graphes from the source code.

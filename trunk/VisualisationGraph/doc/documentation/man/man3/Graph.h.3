@@ -1,0 +1,94 @@
+.TH "src/model/Graph.h" 3 "1 Mar 2010" "Outil pÃ©dagogique pour la comprÃ©hension d'algorithmes de graphes" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+src/model/Graph.h \- 
+.SH SYNOPSIS
+.br
+.PP
+\fC#include 'Summit.h'\fP
+.br
+\fC#include <list>\fP
+.br
+\fC#include <sstream>\fP
+.br
+\fC#include <stdlib.h>\fP
+.br
+
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "class \fBGraph\fP"
+.br
+.in -1c
+.SS "Defines"
+
+.in +1c
+.ti -1c
+.RI "#define \fB_NUMBER\fP   0"
+.br
+.RI "\fICharacteristics of nodes. \fP"
+.ti -1c
+.RI "#define \fB_TAG\fP   1"
+.br
+.ti -1c
+.RI "#define \fB_STATE\fP   2"
+.br
+.ti -1c
+.RI "#define \fB_CHOICE_STATE\fP   -1"
+.br
+.RI "\fIOptions for the states. \fP"
+.ti -1c
+.RI "#define \fB_SOURCE_NODE\fP   0"
+.br
+.RI "\fICharacteristics of edges. \fP"
+.ti -1c
+.RI "#define \fB_DEST_NODE\fP   1"
+.br
+.ti -1c
+.RI "#define \fB_VALUE\fP   2"
+.br
+.ti -1c
+.RI "#define \fB_EDGE_STATE\fP   3"
+.br
+.ti -1c
+.RI "#define \fB_NOT_VISITED\fP   0"
+.br
+.RI "\fIEdges states. \fP"
+.ti -1c
+.RI "#define \fB_VISITED\fP   1"
+.br
+.ti -1c
+.RI "#define \fB_ON_EDGE\fP   2"
+.br
+.in -1c
+.SH "Define Documentation"
+.PP 
+.SS "#define _CHOICE_STATE   -1"
+.PP
+Options for the states. State that permit to select node 
+.SS "#define _DEST_NODE   1"the dest node of an edge 
+.SS "#define _EDGE_STATE   3"the state of the edge 
+.SS "#define _NOT_VISITED   0"
+.PP
+Edges states. the state when the edge was not visited 
+.SS "#define _NUMBER   0"
+.PP
+Characteristics of nodes. \fBAuthor:\fP
+.RS 4
+Estebe Anthony Number of a node 
+.RE
+.PP
+
+.SS "#define _ON_EDGE   2"the state of the current edge 
+.SS "#define _SOURCE_NODE   0"
+.PP
+Characteristics of edges. the source node of an edge 
+.SS "#define _STATE   2"State of a node 
+.SS "#define _TAG   1"Tag of a node 
+.SS "#define _VALUE   2"the value of the edge 
+.SS "#define _VISITED   1"the state when the edge was been visited 
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Outil pÃ©dagogique pour la comprÃ©hension d'algorithmes de graphes from the source code.

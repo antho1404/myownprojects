@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" href="$class_graph.html#a6707f01afb727e8e5ca93e140a3316cc" title="Get the order of the graph." alt="" coords="249,5,364,35"/>
+<area shape="rect" href="$class_graph.html#aed33bcfd30446a62d8cfb2b994395edd" title="Function that permit to know if the nodeA is predecessor of the nodeB." alt="" coords="233,59,380,88"/>
+<area shape="rect" href="$class_graph.html#a268f7e763ddc3b04bdd4296a25362cc9" title="Function that permit to know if the nodeA is successor of the nodeB." alt="" coords="429,59,565,88"/>
+</map>

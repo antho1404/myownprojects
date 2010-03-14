@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" href="$class_graph_widget.html#a60a9292b7b82ef13f63253dd9eb27fdf" title="GraphWidget::createEdge" alt="" coords="217,59,388,88"/>
+<area shape="rect" href="$class_graph_widget.html#a4a3c779872d2bf8f6154a7df93185df6" title="GraphWidget::getScene" alt="" coords="456,112,616,141"/>
+<area shape="rect" href="$class_graph_widget.html#a34930b88ba88bd63767f5ae0a9583d36" title="GraphWidget::createNode" alt="" coords="217,163,388,192"/>
+<area shape="rect" href="$class_node.html#a4d00e436b782f4a037a70c728fd17e05" title="Node::setState" alt="" coords="249,216,356,245"/>
+<area shape="rect" href="$class_node.html#a28cf8e44eaeac505dc309a5973948888" title="Node::setTag" alt="" coords="253,269,352,299"/>
+<area shape="rect" href="$class_graph_widget.html#af732b0f2ed9496be8f72407351f1892d" title="GraphWidget::showEdgesValues" alt="" coords="197,323,408,352"/>
+<area shape="rect" href="$class_node.html#a7fd57dccb57f67113c2894d0d52da537" title="Node::getNumber" alt="" coords="475,5,597,35"/>
+<area shape="rect" href="$class_edge.html#a91b597b9d895093c56ed9be6bfe6eddb" title="Edge::setState" alt="" coords="483,59,589,88"/>
+</map>

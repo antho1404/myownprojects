@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" href="$class_graph_matrix.html#a943dc4846736f330a08b50428224fd6f" title="Get the predecessor of a node." alt="" coords="203,5,381,35"/>
+<area shape="rect" href="$class_graph.html#a869cc2b8e3f22864a9e7e0e7954282ee" title="Get the predecessor of a node." alt="" coords="221,59,363,88"/>
+<area shape="rect" href="$class_graph.html#a2f82a046b5aba57f7d6c8ff433122063" title="Function that permit to know the number of predecessors." alt="" coords="431,59,617,88"/>
+</map>

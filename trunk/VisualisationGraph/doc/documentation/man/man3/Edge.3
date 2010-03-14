@@ -1,0 +1,79 @@
+.TH "Edge" 3 "1 Mar 2010" "Outil pÃ©dagogique pour la comprÃ©hension d'algorithmes de graphes" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Edge \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <Edge.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBEdge\fP (\fBNode\fP *sourceNode, \fBNode\fP *destNode, int value)"
+.br
+.ti -1c
+.RI "\fB~Edge\fP ()"
+.br
+.ti -1c
+.RI "\fBNode\fP * \fBsourceNode\fP () const "
+.br
+.ti -1c
+.RI "void \fBsetSourceNode\fP (\fBNode\fP *node)"
+.br
+.ti -1c
+.RI "\fBNode\fP * \fBdestNode\fP () const "
+.br
+.ti -1c
+.RI "void \fBsetDestNode\fP (\fBNode\fP *node)"
+.br
+.ti -1c
+.RI "void \fBsetValue\fP (int value)"
+.br
+.ti -1c
+.RI "void \fBsetState\fP (int state)"
+.br
+.ti -1c
+.RI "void \fBshowValue\fP (bool show)"
+.br
+.ti -1c
+.RI "void \fBadjust\fP ()"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "QRectF \fBboundingRect\fP () const "
+.br
+.ti -1c
+.RI "void \fBpaint\fP (QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)"
+.br
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Edge::Edge (\fBNode\fP * sourceNode, \fBNode\fP * destNode, int value)"\fBAuthor:\fP
+.RS 4
+Estebe Anthony 
+.RE
+.PP
+
+.SS "Edge::~Edge ()"
+.SH "Member Function Documentation"
+.PP 
+.SS "void Edge::adjust ()"
+.SS "QRectF Edge::boundingRect () const\fC [protected]\fP"
+.SS "\fBNode\fP * Edge::destNode () const"
+.SS "void Edge::paint (QPainter * painter, const QStyleOptionGraphicsItem * option, QWidget * widget)\fC [protected]\fP"
+.SS "void Edge::setDestNode (\fBNode\fP * node)"
+.SS "void Edge::setSourceNode (\fBNode\fP * node)"
+.SS "void Edge::setState (int state)"
+.SS "void Edge::setValue (int value)"
+.SS "void Edge::showValue (bool show)"
+.SS "\fBNode\fP * Edge::sourceNode () const"
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Outil pÃ©dagogique pour la comprÃ©hension d'algorithmes de graphes from the source code.

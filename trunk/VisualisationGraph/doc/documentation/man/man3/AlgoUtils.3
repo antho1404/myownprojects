@@ -1,0 +1,164 @@
+.TH "AlgoUtils" 3 "1 Mar 2010" "Outil pÃ©dagogique pour la comprÃ©hension d'algorithmes de graphes" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+AlgoUtils \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <AlgoUtils.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBAlgoUtils\fP ()"
+.br
+.RI "\fIConstructor. \fP"
+.ti -1c
+.RI "\fBAlgoUtils\fP (\fBAbstractModel\fP *model)"
+.br
+.RI "\fIConstructor. \fP"
+.ti -1c
+.RI "\fBAlgoUtils\fP (\fBAbstractModel\fP *model, string name)"
+.br
+.RI "\fIConstructor. \fP"
+.ti -1c
+.RI "virtual void \fBchangeFlagInteraction\fP (int flag)"
+.br
+.RI "\fIFunction that permit to assign the kind of interaction with the algorithm between _FIFO, _LIFO, _RDM, _USER. \fP"
+.ti -1c
+.RI "virtual void \fBchangeSpeed\fP (unsigned long time)"
+.br
+.RI "\fIChange the time to wait when the algorithm is running in _FIFO, _LIFO or _RDM. \fP"
+.ti -1c
+.RI "void \fBsetName\fP (string name)"
+.br
+.RI "\fIAssign a name for the algorithm. \fP"
+.ti -1c
+.RI "void \fBsetModel\fP (\fBAbstractModel\fP *model)"
+.br
+.RI "\fIAssign the model to the algorithm. \fP"
+.ti -1c
+.RI "virtual string \fBgetName\fP ()"
+.br
+.RI "\fIMethod that permit to know the name of the algorithm. \fP"
+.ti -1c
+.RI "virtual void \fB_sleep\fP (unsigned long time)"
+.br
+.RI "\fIfunction that permit to wait \fP"
+.ti -1c
+.RI "virtual void \fBinitAlgo\fP (\fBGraph\fP *g)"
+.br
+.ti -1c
+.RI "virtual int \fBchooseNode\fP (\fBGraph\fP *g, list< int > *nodes)"
+.br
+.ti -1c
+.RI "virtual void \fBsetNodeSelected\fP (int node)"
+.br
+.RI "\fIChange the value of the selected node. \fP"
+.ti -1c
+.RI "virtual void \fBnotify\fP (\fBGraph\fP *g)"
+.br
+.RI "\fINotify windows that the graphe has change. \fP"
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "AlgoUtils::AlgoUtils ()"
+.PP
+Constructor. \fBAuthor:\fP
+.RS 4
+Estebe Anthony 
+.RE
+.PP
+
+.SS "AlgoUtils::AlgoUtils (\fBAbstractModel\fP * model)"
+.PP
+Constructor. \fBParameters:\fP
+.RS 4
+\fIthe\fP model which launch the algorithm 
+.RE
+.PP
+
+.SS "AlgoUtils::AlgoUtils (\fBAbstractModel\fP * model, string name)"
+.PP
+Constructor. \fBParameters:\fP
+.RS 4
+\fIthe\fP model which launch the algorithm 
+.br
+\fIthe\fP name of the algorithm 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "void AlgoUtils::_sleep (unsigned long time)\fC [virtual]\fP"
+.PP
+function that permit to wait \fBParameters:\fP
+.RS 4
+\fItime\fP we want to sleep 
+.RE
+.PP
+
+.SS "void AlgoUtils::changeFlagInteraction (int flag)\fC [virtual]\fP"
+.PP
+Function that permit to assign the kind of interaction with the algorithm between _FIFO, _LIFO, _RDM, _USER. \fBParameters:\fP
+.RS 4
+\fIflag\fP that we want to assign 
+.RE
+.PP
+
+.SS "void AlgoUtils::changeSpeed (unsigned long time)\fC [virtual]\fP"
+.PP
+Change the time to wait when the algorithm is running in _FIFO, _LIFO or _RDM. \fBParameters:\fP
+.RS 4
+\fItime\fP to wait 
+.RE
+.PP
+
+.SS "int AlgoUtils::chooseNode (\fBGraph\fP * g, list< int > * nodes)\fC [virtual]\fP"
+.SS "string AlgoUtils::getName ()\fC [virtual]\fP"
+.PP
+Method that permit to know the name of the algorithm. \fBReturns:\fP
+.RS 4
+the name of the algorithm 
+.RE
+.PP
+
+.SS "void AlgoUtils::initAlgo (\fBGraph\fP * g)\fC [virtual]\fP"
+.SS "void AlgoUtils::notify (\fBGraph\fP * g)\fC [virtual]\fP"
+.PP
+Notify windows that the graphe has change. \fBParameters:\fP
+.RS 4
+\fIthe\fP graph 
+.RE
+.PP
+
+.SS "void AlgoUtils::setModel (\fBAbstractModel\fP * model)"
+.PP
+Assign the model to the algorithm. \fBParameters:\fP
+.RS 4
+\fIthe\fP model assigned to the graphe 
+.RE
+.PP
+
+.SS "void AlgoUtils::setName (string name)"
+.PP
+Assign a name for the algorithm. \fBParameters:\fP
+.RS 4
+\fIname\fP of the algorithm 
+.RE
+.PP
+
+.SS "void AlgoUtils::setNodeSelected (int node)\fC [virtual]\fP"
+.PP
+Change the value of the selected node. \fBParameters:\fP
+.RS 4
+\fIthe\fP node selected 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Outil pÃ©dagogique pour la comprÃ©hension d'algorithmes de graphes from the source code.

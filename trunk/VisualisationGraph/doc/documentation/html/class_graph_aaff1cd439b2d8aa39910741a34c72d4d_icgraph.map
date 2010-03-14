@@ -1,0 +1,17 @@
+<map id="G" name="G">
+<area shape="rect" href="$class_graph_x_m_l.html#a12358ef5f869f9081b125482a0a9aee3" title="GraphXML::exportGraph" alt="" coords="192,5,355,35"/>
+<area shape="rect" href="$class_algo_utils.html#ae5fb1a8757a4d5bf395f2a53590cbb45" title="AlgoUtils::initAlgo" alt="" coords="212,59,335,88"/>
+<area shape="rect" href="$class_abstract_model.html#a2a287b123b5ea9ce2303cf0ec1dac573" title="AbstractModel::notifyObserver" alt="" coords="175,245,372,275"/>
+<area shape="rect" href="$class_test.html#af8ae56575798232ef14b1a06603fa81e" title="Test::run" alt="" coords="691,112,763,141"/>
+<area shape="rect" href="$class_model.html#a9628bfb04212853467a715c94510abcf" title="Model::runAlgo" alt="" coords="448,59,555,88"/>
+<area shape="rect" href="$class_model.html#a1a5d547ed34c3f1066629d3e00f707a9" title="Model::addEdge" alt="" coords="444,219,559,248"/>
+<area shape="rect" href="$class_model.html#af0a97c4b9c9688f9bcf2b3015e63d414" title="Model::addNode" alt="" coords="444,272,559,301"/>
+<area shape="rect" href="$class_algo_utils.html#a1b5de3e80368918fb0251ed5f84cf39d" title="AlgoUtils::chooseNode" alt="" coords="425,325,577,355"/>
+<area shape="rect" href="$class_model.html#a002b7fb9b3157953478b3f85b35ae5e4" title="Model::createGraph" alt="" coords="433,379,569,408"/>
+<area shape="rect" href="$class_model.html#a09024e0dafe8d7c06967c4abab63ec46" title="Model::createNewGraph" alt="" coords="421,432,581,461"/>
+<area shape="rect" href="$class_model.html#a3e1c5332250e48489f6b9ad1610a5886" title="Model::importGraph" alt="" coords="433,485,569,515"/>
+<area shape="rect" href="$class_algo_utils.html#a0df480ecb171882808a9d82f68442141" title="Notify windows that the graphe has change." alt="" coords="445,112,557,141"/>
+<area shape="rect" href="$class_model.html#a8f9d84ed029d7ab8913754875d047399" title="Model::showGraph" alt="" coords="437,165,565,195"/>
+<area shape="rect" href="$class_numerotation__compatible.html#ab169240767e748e761321713295b5534" title="Numerotation_compatible::run" alt="" coords="629,352,824,381"/>
+<area shape="rect" href="$class_deep_search.html#a591871d2e5b18e22a149bb433116541c" title="DeepSearch::run" alt="" coords="668,299,785,328"/>
+</map>

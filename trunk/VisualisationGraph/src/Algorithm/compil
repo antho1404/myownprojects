@@ -1,0 +1,6 @@
+so linux : 
+	g++ -fPIC -shared -o lib.so file.cpp
+	
+dll windows :
+	
+

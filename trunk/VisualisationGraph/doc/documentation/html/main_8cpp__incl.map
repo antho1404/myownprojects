@@ -1,0 +1,16 @@
+<map id="G" name="G">
+<area shape="rect" href="$_model_8h.html" title="model/Model.h" alt="" coords="237,83,344,112"/>
+<area shape="rect" href="$_controller_model_8h.html" title="controller/ControllerModel.h" alt="" coords="737,83,916,112"/>
+<area shape="rect" href="$_console_8h.html" title="view/Console.h" alt="" coords="549,160,659,189"/>
+<area shape="rect" href="$_main_frame_8h.html" title="view/MainFrame.h" alt="" coords="1240,83,1365,112"/>
+<area shape="rect" href="$_abstract_model_8h.html" title="AbstractModel.h" alt="" coords="104,315,219,344"/>
+<area shape="rect" href="$_algo_8h.html" title="Algo.h" alt="" coords="228,160,287,189"/>
+<area shape="rect" href="$_algo_utils_8h.html" title="AlgoUtils.h" alt="" coords="249,237,332,267"/>
+<area shape="rect" href="$_graph_8h.html" title="./Graph.h" alt="" coords="449,392,524,421"/>
+<area shape="rect" href="$_summit_8h.html" title="Summit.h" alt="" coords="543,469,620,499"/>
+<area shape="rect" href="$_graph_widget_8h.html" title="GraphWidget.h" alt="" coords="1469,160,1576,189"/>
+<area shape="rect" href="$_status_bar_8h.html" title="StatusBar.h" alt="" coords="1832,160,1923,189"/>
+<area shape="rect" href="$_tools_bar_8h.html" title="ToolsBar.h" alt="" coords="2044,160,2127,189"/>
+<area shape="rect" href="$_menu_bar_8h.html" title="MenuBar.h" alt="" coords="1019,160,1101,189"/>
+<area shape="rect" href="$_config_graph_8h.html" title="ConfigGraph.h" alt="" coords="2343,160,2447,189"/>
+</map>

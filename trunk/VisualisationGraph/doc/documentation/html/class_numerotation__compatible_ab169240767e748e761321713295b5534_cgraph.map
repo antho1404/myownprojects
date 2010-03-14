@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" href="$class_algo_utils.html#a1b5de3e80368918fb0251ed5f84cf39d" title="AlgoUtils::chooseNode" alt="" coords="249,112,401,141"/>
+<area shape="rect" href="$class_graph.html#a6707f01afb727e8e5ca93e140a3316cc" title="Get the order of the graph." alt="" coords="897,165,1012,195"/>
+<area shape="rect" href="$class_graph.html#a9d632db4f49078b31feafe7422561693" title="Function that change the state of a node." alt="" coords="495,165,607,195"/>
+<area shape="rect" href="$class_graph.html#a4f3dd7fd4c00a5ca3f03c291068c49e9" title="Function that change the tag of a node." alt="" coords="273,269,377,299"/>
+<area shape="rect" href="$class_algo_utils.html#a9a6eaa6c1eea1efdbf914335dc080fac" title="function that permit to wait" alt="" coords="491,5,611,35"/>
+<area shape="rect" href="$class_graph.html#ace3b3a005d9f7afa4c7854102c2cd7fc" title="Function that return the state of a node." alt="" coords="495,59,607,88"/>
+<area shape="rect" href="$class_abstract_model.html#a2a287b123b5ea9ce2303cf0ec1dac573" title="AbstractModel::notifyObserver" alt="" coords="452,112,649,141"/>
+<area shape="rect" href="$class_graph.html#aaff1cd439b2d8aa39910741a34c72d4d" title="function that permit to get all edges of the graph" alt="" coords="707,61,827,91"/>
+<area shape="rect" href="$class_graph.html#a2c38bbfd88b1f59f2cb10b1e9106c8bd" title="function that permit to get all summit of the graph" alt="" coords="700,165,833,195"/>
+<area shape="rect" href="$class_graph.html#adad06e54e2163cfeb80415123bc88c25" title="Function that permit to know the the state of the edge nodeA, nodeB." alt="" coords="883,5,1027,35"/>
+<area shape="rect" href="$class_graph.html#a91fad353cc4f8e604db8fb4c24c5ab8a" title="Function that permit to know the value of the edge nodeA, nodeB." alt="" coords="883,59,1027,88"/>
+<area shape="rect" href="$class_graph.html#a268f7e763ddc3b04bdd4296a25362cc9" title="Function that permit to know if the nodeA is successor of the nodeB." alt="" coords="887,112,1023,141"/>
+</map>

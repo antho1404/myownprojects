@@ -1,0 +1,18 @@
+<map id="G" name="G">
+<area shape="rect" href="$class_graph.html#aaff1cd439b2d8aa39910741a34c72d4d" title="function that permit to get all edges of the graph" alt="" coords="197,59,317,88"/>
+<area shape="rect" href="$class_graph_x_m_l.html#a12358ef5f869f9081b125482a0a9aee3" title="GraphXML::exportGraph" alt="" coords="384,5,547,35"/>
+<area shape="rect" href="$class_algo_utils.html#ae5fb1a8757a4d5bf395f2a53590cbb45" title="AlgoUtils::initAlgo" alt="" coords="404,59,527,88"/>
+<area shape="rect" href="$class_abstract_model.html#a2a287b123b5ea9ce2303cf0ec1dac573" title="AbstractModel::notifyObserver" alt="" coords="367,245,564,275"/>
+<area shape="rect" href="$class_test.html#af8ae56575798232ef14b1a06603fa81e" title="Test::run" alt="" coords="883,112,955,141"/>
+<area shape="rect" href="$class_model.html#a9628bfb04212853467a715c94510abcf" title="Model::runAlgo" alt="" coords="640,59,747,88"/>
+<area shape="rect" href="$class_model.html#a1a5d547ed34c3f1066629d3e00f707a9" title="Model::addEdge" alt="" coords="636,219,751,248"/>
+<area shape="rect" href="$class_model.html#af0a97c4b9c9688f9bcf2b3015e63d414" title="Model::addNode" alt="" coords="636,272,751,301"/>
+<area shape="rect" href="$class_algo_utils.html#a1b5de3e80368918fb0251ed5f84cf39d" title="AlgoUtils::chooseNode" alt="" coords="617,325,769,355"/>
+<area shape="rect" href="$class_model.html#a002b7fb9b3157953478b3f85b35ae5e4" title="Model::createGraph" alt="" coords="625,379,761,408"/>
+<area shape="rect" href="$class_model.html#a09024e0dafe8d7c06967c4abab63ec46" title="Model::createNewGraph" alt="" coords="613,432,773,461"/>
+<area shape="rect" href="$class_model.html#a3e1c5332250e48489f6b9ad1610a5886" title="Model::importGraph" alt="" coords="625,485,761,515"/>
+<area shape="rect" href="$class_algo_utils.html#a0df480ecb171882808a9d82f68442141" title="Notify windows that the graphe has change." alt="" coords="637,112,749,141"/>
+<area shape="rect" href="$class_model.html#a8f9d84ed029d7ab8913754875d047399" title="Model::showGraph" alt="" coords="629,165,757,195"/>
+<area shape="rect" href="$class_numerotation__compatible.html#ab169240767e748e761321713295b5534" title="Numerotation_compatible::run" alt="" coords="821,352,1016,381"/>
+<area shape="rect" href="$class_deep_search.html#a591871d2e5b18e22a149bb433116541c" title="DeepSearch::run" alt="" coords="860,299,977,328"/>
+</map>
