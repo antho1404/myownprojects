@@ -1,0 +1,24 @@
+#ifndef NOUVELALGO_H
+#define NOUVELALGO_H
+#include "../Algo.h"
+
+#if defined(WIN32) || defined(WIN64)
+#include "dll_global.h"
+#endif 
+
+class 
+#if defined(WIN32) ||defined(WIN64)
+	DLLSHARED_EXPORT 
+#endif
+	NouvelAlgo : public Algo {
+public :
+    NouvelAlgo() ;
+    virtual ~NouvelAlgo();
+    void run(Graph *g);
+    void setAlgoUtils(AlgoUtils *au);
+private :
+    AlgoUtils *au;
+};
+
+#endif
+

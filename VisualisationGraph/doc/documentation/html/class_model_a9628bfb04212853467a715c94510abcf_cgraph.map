@@ -1,0 +1,21 @@
+<map id="G" name="G">
+<area shape="rect" href="$class_serialize.html#a0e6c9185971631bab8da7ed9fe9e8446" title="Serialize::algo" alt="" coords="216,5,320,35"/>
+<area shape="rect" href="$class_algo_utils.html#a649c2b0d9096a283f169dc7220247c81" title="Function that permit to assign the kind of interaction with the algorithm between..." alt="" coords="164,59,372,88"/>
+<area shape="rect" href="$class_algo_utils.html#a76642bfa7cd6bc4ad8741c31528feb79" title="Change the time to wait when the algorithm is running in _FIFO, _LIFO or _RDM." alt="" coords="188,112,348,141"/>
+<area shape="rect" href="$class_algo_i_o.html#aaf1801cdb94b67cf9aeede1bb9ccf2b5" title="AlgoIO::closeAlgo" alt="" coords="205,165,331,195"/>
+<area shape="rect" href="$class_serialize.html#aa92a246e9f8ae43134a2318beb17d3ea" title="Serialize::getInstance" alt="" coords="195,219,341,248"/>
+<area shape="rect" href="$class_algo_i_o.html#a464b77a52cb88047546177f782dfeaaa" title="AlgoIO::importAlgo" alt="" coords="203,272,333,301"/>
+<area shape="rect" href="$class_algo_utils.html#ae5fb1a8757a4d5bf395f2a53590cbb45" title="AlgoUtils::initAlgo" alt="" coords="207,379,329,408"/>
+<area shape="rect" href="$class_abstract_model.html#a2a287b123b5ea9ce2303cf0ec1dac573" title="AbstractModel::notifyObserver" alt="" coords="169,325,367,355"/>
+<area shape="rect" href="$class_algo.html#a8634b767e068a69eb1672f2760d7e73c" title="Algo::run" alt="" coords="232,432,304,461"/>
+<area shape="rect" href="$class_algo.html#a2fa976aa9e6ff580d3cacc16b6b0b852" title="Assign an algoUtils object that permit to use functions of algorithm." alt="" coords="205,485,331,515"/>
+<area shape="rect" href="$class_algo_utils.html#a951263efead9519e7737f273a864608c" title="Assign the model to the algorithm." alt="" coords="201,539,335,568"/>
+<area shape="rect" href="$class_graph.html#aaff1cd439b2d8aa39910741a34c72d4d" title="function that permit to get all edges of the graph" alt="" coords="433,379,553,408"/>
+<area shape="rect" href="$class_graph.html#a6707f01afb727e8e5ca93e140a3316cc" title="Get the order of the graph." alt="" coords="628,275,743,304"/>
+<area shape="rect" href="$class_graph.html#a0d392b1990a1f37ec8e00857631633b2" title="Assign a state of the edge." alt="" coords="421,432,565,461"/>
+<area shape="rect" href="$class_graph.html#a9d632db4f49078b31feafe7422561693" title="Function that change the state of a node." alt="" coords="437,485,549,515"/>
+<area shape="rect" href="$class_graph.html#adad06e54e2163cfeb80415123bc88c25" title="Function that permit to know the the state of the edge nodeA, nodeB." alt="" coords="613,435,757,464"/>
+<area shape="rect" href="$class_graph.html#a91fad353cc4f8e604db8fb4c24c5ab8a" title="Function that permit to know the value of the edge nodeA, nodeB." alt="" coords="613,328,757,357"/>
+<area shape="rect" href="$class_graph.html#a268f7e763ddc3b04bdd4296a25362cc9" title="Function that permit to know if the nodeA is successor of the nodeB." alt="" coords="617,381,753,411"/>
+<area shape="rect" href="$class_graph.html#a2c38bbfd88b1f59f2cb10b1e9106c8bd" title="function that permit to get all summit of the graph" alt="" coords="427,275,560,304"/>
+</map>

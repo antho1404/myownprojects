@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" href="$class_model.html#a96099436178d6ba77fe64215e7eab8a8" title="Model::addAlgorithm" alt="" coords="169,5,308,35"/>
+<area shape="rect" href="$class_model.html#a70eab3929e85d0e3551c7e67a64eb8ef" title="Model::getAlgoList" alt="" coords="175,59,303,88"/>
+<area shape="rect" href="$class_model.html#a98b0325e73ec445a4ab5aa87d4248331" title="Model::removeAlgorithm" alt="" coords="157,112,320,141"/>
+<area shape="rect" href="$class_model.html#a9628bfb04212853467a715c94510abcf" title="Model::runAlgo" alt="" coords="185,165,292,195"/>
+</map>

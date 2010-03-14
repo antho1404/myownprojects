@@ -1,0 +1,54 @@
+.TH "Observable" 3 "1 Mar 2010" "Outil pÃ©dagogique pour la comprÃ©hension d'algorithmes de graphes" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Observable \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <Observable.h>\fP
+.PP
+Inherited by \fBAbstractModel\fP\fC [virtual]\fP.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "virtual \fB~Observable\fP ()"
+.br
+.ti -1c
+.RI "virtual void \fBaddObserver\fP (\fBObserver\fP *obs)=0"
+.br
+.ti -1c
+.RI "virtual void \fBremoveObserver\fP ()=0"
+.br
+.ti -1c
+.RI "virtual void \fBnotifyObserver\fP (\fBGraph\fP *g)=0"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+\fBAuthor:\fP
+.RS 4
+Estebe Anthony 
+.RE
+.PP
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "virtual Observable::~Observable ()\fC [inline, virtual]\fP"
+.SH "Member Function Documentation"
+.PP 
+.SS "virtual void Observable::addObserver (\fBObserver\fP * obs)\fC [pure virtual]\fP"
+.PP
+Implemented in \fBAbstractModel\fP.
+.SS "virtual void Observable::notifyObserver (\fBGraph\fP * g)\fC [pure virtual]\fP"
+.PP
+Implemented in \fBAbstractModel\fP.
+.SS "virtual void Observable::removeObserver ()\fC [pure virtual]\fP"
+.PP
+Implemented in \fBAbstractModel\fP.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Outil pÃ©dagogique pour la comprÃ©hension d'algorithmes de graphes from the source code.

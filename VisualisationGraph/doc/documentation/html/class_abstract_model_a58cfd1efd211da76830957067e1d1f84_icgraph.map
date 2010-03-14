@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" href="$class_controller_model.html#a15fd2f20d4047bf7f00c62f53cb4eb60" title="ControllerModel::setNodeSelected" alt="" coords="267,5,485,35"/>
+<area shape="rect" href="$class_graph_widget.html#aeba9b7054ce9f30f1e3decf2d77ef97b" title="GraphWidget::validNode" alt="" coords="535,5,695,35"/>
+<area shape="rect" href="$class_node.html#acb76efb93d484abb2ac3f7e9280a99f5" title="Node::mousePressEvent" alt="" coords="744,5,909,35"/>
+</map>

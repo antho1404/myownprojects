@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" href="$class_graph_widget.html#a60a9292b7b82ef13f63253dd9eb27fdf" title="GraphWidget::createEdge" alt="" coords="176,5,347,35"/>
+<area shape="rect" href="$class_node.html#acb76efb93d484abb2ac3f7e9280a99f5" title="Node::mousePressEvent" alt="" coords="179,59,344,88"/>
+<area shape="rect" href="$class_node.html#a63d46898bc8e4da1d1d92f7f4603ba1e" title="Node::paint" alt="" coords="217,112,305,141"/>
+<area shape="rect" href="$class_graph_widget.html#a9f6420153a29a79bb1cfe333ee083d7a" title="GraphWidget::update" alt="" coords="395,5,539,35"/>
+</map>

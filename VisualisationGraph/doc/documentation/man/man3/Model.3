@@ -1,0 +1,128 @@
+.TH "Model" 3 "1 Mar 2010" "Outil pÃ©dagogique pour la comprÃ©hension d'algorithmes de graphes" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Model \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <Model.h>\fP
+.PP
+Inherits \fBAbstractModel\fP.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBModel\fP ()"
+.br
+.ti -1c
+.RI "virtual \fB~Model\fP ()"
+.br
+.ti -1c
+.RI "void \fBshowGraph\fP ()"
+.br
+.ti -1c
+.RI "virtual void \fBcreateNewGraph\fP ()"
+.br
+.ti -1c
+.RI "virtual void \fBcreateGraph\fP ()"
+.br
+.ti -1c
+.RI "virtual void \fBsetNodeSelected\fP (int node)"
+.br
+.ti -1c
+.RI "virtual void \fBaddNode\fP (string tag, int state)"
+.br
+.ti -1c
+.RI "virtual void \fBaddEdge\fP (int nodeA, int nodeB, int value, int state)"
+.br
+.ti -1c
+.RI "virtual void \fBexportGraph\fP (string dir)"
+.br
+.ti -1c
+.RI "virtual void \fBimportGraph\fP (string name, bool file)"
+.br
+.ti -1c
+.RI "virtual string \fBaddAlgorithm\fP (string name, string src)"
+.br
+.ti -1c
+.RI "virtual string \fBremoveAlgorithm\fP (string name)"
+.br
+.ti -1c
+.RI "virtual void \fBchangeAlgoSpeed\fP (unsigned long speed)"
+.br
+.ti -1c
+.RI "virtual void \fBchangeAlgoInteraction\fP (int flag)"
+.br
+.ti -1c
+.RI "virtual list< string > * \fBgetAlgoList\fP ()"
+.br
+.ti -1c
+.RI "virtual list< string > * \fBgetGraphList\fP ()"
+.br
+.ti -1c
+.RI "virtual void \fBrunAlgo\fP (string algoName)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+\fBAuthor:\fP
+.RS 4
+Estebe Anthony 
+.RE
+.PP
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Model::Model ()"
+.SS "Model::~Model ()\fC [virtual]\fP"
+.SH "Member Function Documentation"
+.PP 
+.SS "string Model::addAlgorithm (string name, string src)\fC [virtual]\fP"
+.PP
+Implements \fBAbstractModel\fP.
+.SS "void Model::addEdge (int nodeA, int nodeB, int value, int state)\fC [virtual]\fP"
+.PP
+Implements \fBAbstractModel\fP.
+.SS "void Model::addNode (string tag, int state)\fC [virtual]\fP"
+.PP
+Implements \fBAbstractModel\fP.
+.SS "void Model::changeAlgoInteraction (int flag)\fC [virtual]\fP"
+.PP
+Implements \fBAbstractModel\fP.
+.SS "void Model::changeAlgoSpeed (unsigned long speed)\fC [virtual]\fP"
+.PP
+Implements \fBAbstractModel\fP.
+.SS "void Model::createGraph ()\fC [virtual]\fP"
+.PP
+Implements \fBAbstractModel\fP.
+.SS "void Model::createNewGraph ()\fC [virtual]\fP"
+.PP
+Implements \fBAbstractModel\fP.
+.SS "void Model::exportGraph (string dir)\fC [virtual]\fP"
+.PP
+Implements \fBAbstractModel\fP.
+.SS "list< string > * Model::getAlgoList ()\fC [virtual]\fP"
+.PP
+Implements \fBAbstractModel\fP.
+.SS "list< string > * Model::getGraphList ()\fC [virtual]\fP"
+.PP
+Implements \fBAbstractModel\fP.
+.SS "void Model::importGraph (string name, bool file)\fC [virtual]\fP"
+.PP
+Implements \fBAbstractModel\fP.
+.SS "string Model::removeAlgorithm (string name)\fC [virtual]\fP"
+.PP
+Implements \fBAbstractModel\fP.
+.SS "void Model::runAlgo (string algoName)\fC [virtual]\fP"
+.PP
+Implements \fBAbstractModel\fP.
+.SS "void Model::setNodeSelected (int node)\fC [virtual]\fP"
+.PP
+Implements \fBAbstractModel\fP.
+.SS "void Model::showGraph ()"
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Outil pÃ©dagogique pour la comprÃ©hension d'algorithmes de graphes from the source code.

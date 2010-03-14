@@ -1,0 +1,114 @@
+.TH "Node" 3 "1 Mar 2010" "Outil pÃ©dagogique pour la comprÃ©hension d'algorithmes de graphes" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Node \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <Node.h>\fP
+.SS "Public Types"
+
+.in +1c
+.ti -1c
+.RI "enum { \fBType\fP =  UserType + 1 }"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBNode\fP (\fBGraphWidget\fP *graphWidget, string number, string tag, string state)"
+.br
+.ti -1c
+.RI "void \fBaddEdge\fP (\fBEdge\fP *edge)"
+.br
+.ti -1c
+.RI "QList< \fBEdge\fP * > \fBedges\fP () const "
+.br
+.ti -1c
+.RI "int \fBtype\fP () const "
+.br
+.ti -1c
+.RI "void \fBcalculateForces\fP ()"
+.br
+.ti -1c
+.RI "bool \fBadvance\fP ()"
+.br
+.ti -1c
+.RI "QPainterPath \fBshape\fP () const "
+.br
+.ti -1c
+.RI "QPointF \fBgetPos\fP ()"
+.br
+.ti -1c
+.RI "int \fBgetNumber\fP ()"
+.br
+.ti -1c
+.RI "string \fBgetTag\fP ()"
+.br
+.ti -1c
+.RI "int \fBgetState\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetNumber\fP (string n)"
+.br
+.ti -1c
+.RI "void \fBsetTag\fP (string tag)"
+.br
+.ti -1c
+.RI "void \fBsetState\fP (string state)"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "QRectF \fBboundingRect\fP () const "
+.br
+.ti -1c
+.RI "void \fBpaint\fP (QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)"
+.br
+.ti -1c
+.RI "QVariant \fBitemChange\fP (GraphicsItemChange change, const QVariant &value)"
+.br
+.ti -1c
+.RI "void \fBmousePressEvent\fP (QGraphicsSceneMouseEvent *event)"
+.br
+.in -1c
+.SH "Member Enumeration Documentation"
+.PP 
+.SS "anonymous enum"
+.PP
+\fBEnumerator: \fP
+.in +1c
+.TP
+\fB\fIType \fP\fP
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Node::Node (\fBGraphWidget\fP * graphWidget, string number, string tag, string state)"
+.SH "Member Function Documentation"
+.PP 
+.SS "void Node::addEdge (\fBEdge\fP * edge)"
+.SS "bool Node::advance ()"
+.SS "QRectF Node::boundingRect () const\fC [protected]\fP"
+.SS "void Node::calculateForces ()"
+.SS "QList< \fBEdge\fP * > Node::edges () const"
+.SS "int Node::getNumber ()"
+.SS "QPointF Node::getPos ()"
+.SS "int Node::getState ()"
+.SS "string Node::getTag ()"
+.SS "QVariant Node::itemChange (GraphicsItemChange change, const QVariant & value)\fC [protected]\fP"
+.SS "void Node::mousePressEvent (QGraphicsSceneMouseEvent * event)\fC [protected]\fP"
+.SS "void Node::paint (QPainter * painter, const QStyleOptionGraphicsItem * option, QWidget * widget)\fC [protected]\fP"
+.SS "void Node::setNumber (string n)"
+.SS "void Node::setState (string state)"
+.SS "void Node::setTag (string tag)"
+.SS "QPainterPath Node::shape () const"
+.SS "int Node::type () const\fC [inline]\fP"
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Outil pÃ©dagogique pour la comprÃ©hension d'algorithmes de graphes from the source code.

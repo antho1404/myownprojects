@@ -1,0 +1,141 @@
+.TH "AbstractModel" 3 "1 Mar 2010" "Outil pÃ©dagogique pour la comprÃ©hension d'algorithmes de graphes" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+AbstractModel \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <AbstractModel.h>\fP
+.PP
+Inherits \fBObservable\fP.
+.PP
+Inherited by \fBModel\fP.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBAbstractModel\fP ()"
+.br
+.ti -1c
+.RI "virtual \fB~AbstractModel\fP ()"
+.br
+.ti -1c
+.RI "virtual void \fBcreateNewGraph\fP ()=0"
+.br
+.ti -1c
+.RI "virtual void \fBcreateGraph\fP ()=0"
+.br
+.ti -1c
+.RI "virtual void \fBsetNodeSelected\fP (int node)=0"
+.br
+.ti -1c
+.RI "virtual void \fBaddNode\fP (string tag, int state)=0"
+.br
+.ti -1c
+.RI "virtual void \fBaddEdge\fP (int nodeA, int nodeB, int value, int state)=0"
+.br
+.ti -1c
+.RI "virtual void \fBexportGraph\fP (string dir)=0"
+.br
+.ti -1c
+.RI "virtual void \fBimportGraph\fP (string name, bool file)=0"
+.br
+.ti -1c
+.RI "virtual string \fBaddAlgorithm\fP (string name, string src)=0"
+.br
+.ti -1c
+.RI "virtual string \fBremoveAlgorithm\fP (string name)=0"
+.br
+.ti -1c
+.RI "virtual void \fBrunAlgo\fP (string name)=0"
+.br
+.ti -1c
+.RI "virtual void \fBchangeAlgoSpeed\fP (unsigned long speed)=0"
+.br
+.ti -1c
+.RI "virtual void \fBchangeAlgoInteraction\fP (int flag)=0"
+.br
+.ti -1c
+.RI "virtual list< string > * \fBgetAlgoList\fP ()=0"
+.br
+.ti -1c
+.RI "virtual list< string > * \fBgetGraphList\fP ()=0"
+.br
+.ti -1c
+.RI "void \fBaddObserver\fP (\fBObserver\fP *obs)"
+.br
+.ti -1c
+.RI "void \fBremoveObserver\fP ()"
+.br
+.ti -1c
+.RI "void \fBnotifyObserver\fP (\fBGraph\fP *g)"
+.br
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "AbstractModel::AbstractModel ()"\fBAuthor:\fP
+.RS 4
+Estebe Anthony 
+.RE
+.PP
+
+.SS "AbstractModel::~AbstractModel ()\fC [virtual]\fP"
+.SH "Member Function Documentation"
+.PP 
+.SS "virtual string AbstractModel::addAlgorithm (string name, string src)\fC [pure virtual]\fP"
+.PP
+Implemented in \fBModel\fP.
+.SS "virtual void AbstractModel::addEdge (int nodeA, int nodeB, int value, int state)\fC [pure virtual]\fP"
+.PP
+Implemented in \fBModel\fP.
+.SS "virtual void AbstractModel::addNode (string tag, int state)\fC [pure virtual]\fP"
+.PP
+Implemented in \fBModel\fP.
+.SS "void AbstractModel::addObserver (\fBObserver\fP * obs)\fC [virtual]\fP"
+.PP
+Implements \fBObservable\fP.
+.SS "virtual void AbstractModel::changeAlgoInteraction (int flag)\fC [pure virtual]\fP"
+.PP
+Implemented in \fBModel\fP.
+.SS "virtual void AbstractModel::changeAlgoSpeed (unsigned long speed)\fC [pure virtual]\fP"
+.PP
+Implemented in \fBModel\fP.
+.SS "virtual void AbstractModel::createGraph ()\fC [pure virtual]\fP"
+.PP
+Implemented in \fBModel\fP.
+.SS "virtual void AbstractModel::createNewGraph ()\fC [pure virtual]\fP"
+.PP
+Implemented in \fBModel\fP.
+.SS "virtual void AbstractModel::exportGraph (string dir)\fC [pure virtual]\fP"
+.PP
+Implemented in \fBModel\fP.
+.SS "virtual list<string>* AbstractModel::getAlgoList ()\fC [pure virtual]\fP"
+.PP
+Implemented in \fBModel\fP.
+.SS "virtual list<string>* AbstractModel::getGraphList ()\fC [pure virtual]\fP"
+.PP
+Implemented in \fBModel\fP.
+.SS "virtual void AbstractModel::importGraph (string name, bool file)\fC [pure virtual]\fP"
+.PP
+Implemented in \fBModel\fP.
+.SS "void AbstractModel::notifyObserver (\fBGraph\fP * g)\fC [virtual]\fP"
+.PP
+Implements \fBObservable\fP.
+.SS "virtual string AbstractModel::removeAlgorithm (string name)\fC [pure virtual]\fP"
+.PP
+Implemented in \fBModel\fP.
+.SS "void AbstractModel::removeObserver ()\fC [virtual]\fP"
+.PP
+Implements \fBObservable\fP.
+.SS "virtual void AbstractModel::runAlgo (string name)\fC [pure virtual]\fP"
+.PP
+Implemented in \fBModel\fP.
+.SS "virtual void AbstractModel::setNodeSelected (int node)\fC [pure virtual]\fP"
+.PP
+Implemented in \fBModel\fP.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Outil pÃ©dagogique pour la comprÃ©hension d'algorithmes de graphes from the source code.

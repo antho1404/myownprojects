@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" href="$class_graph_widget.html#a60a9292b7b82ef13f63253dd9eb27fdf" title="GraphWidget::createEdge" alt="" coords="213,5,384,35"/>
+<area shape="rect" href="$class_graph_widget.html#a9f6420153a29a79bb1cfe333ee083d7a" title="GraphWidget::update" alt="" coords="432,57,576,87"/>
+<area shape="rect" href="$class_graph_widget.html#a34930b88ba88bd63767f5ae0a9583d36" title="GraphWidget::createNode" alt="" coords="213,109,384,139"/>
+</map>

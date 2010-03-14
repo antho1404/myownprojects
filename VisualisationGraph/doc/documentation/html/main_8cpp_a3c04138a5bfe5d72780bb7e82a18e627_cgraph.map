@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" href="$class_main_frame.html#a7d91db5a6b1cc3ade967bffd4e42fc7a" title="MainFrame::addAlgo" alt="" coords="117,59,256,88"/>
+<area shape="rect" href="$class_main_frame.html#a260208952022f12fff3dc4993585c484" title="MainFrame::importGraph" alt="" coords="105,112,268,141"/>
+<area shape="rect" href="$class_controller_model.html#a83c79ef0efc6888d832f608a857279f0" title="ControllerModel::addAlgorithm" alt="" coords="319,5,513,35"/>
+<area shape="rect" href="$class_tools_bar.html#a0d441f9fdb43416fbeaebefa75ae08fe" title="ToolsBar::updateAlgo" alt="" coords="344,59,488,88"/>
+<area shape="rect" href="$class_abstract_model.html#ae9d000ea7ef867de6f8d4277541a10a8" title="AbstractModel::addAlgorithm" alt="" coords="563,5,752,35"/>
+<area shape="rect" href="$class_main_frame.html#a34510cced55100c21b0e779fe924fb7e" title="MainFrame::getAlgoList" alt="" coords="579,59,736,88"/>
+<area shape="rect" href="$class_controller_model.html#a74f04add49f662a428b1e32e98e4c419" title="ControllerModel::getAlgoList" alt="" coords="800,59,984,88"/>
+<area shape="rect" href="$class_abstract_model.html#a16479910d69f5ffccb1c77788ce29108" title="AbstractModel::getAlgoList" alt="" coords="1032,59,1211,88"/>
+<area shape="rect" href="$class_controller_model.html#a615e39fcc4e0d77f8ec2d057138a8276" title="ControllerModel::getGraphList" alt="" coords="320,112,512,141"/>
+<area shape="rect" href="$class_controller_model.html#a17a7d0b21aa415dc46d816d11999ea01" title="ControllerModel::importGraph" alt="" coords="321,165,511,195"/>
+<area shape="rect" href="$class_abstract_model.html#a803112a2664d0c5ccbb38e20c8f29f3a" title="AbstractModel::getGraphList" alt="" coords="564,112,751,141"/>
+<area shape="rect" href="$class_abstract_model.html#a8905863b680a3f1f143b9798030c5111" title="AbstractModel::importGraph" alt="" coords="565,165,749,195"/>
+</map>

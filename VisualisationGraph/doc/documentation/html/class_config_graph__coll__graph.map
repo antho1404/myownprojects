@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" href="$class_main_frame.html" title="MainFrame" alt="" coords="244,277,329,307"/>
+<area shape="rect" href="$class_menu_bar.html" title="MenuBar" alt="" coords="423,373,495,403"/>
+<area shape="rect" href="$class_graph_widget.html" title="GraphWidget" alt="" coords="47,373,143,403"/>
+<area shape="rect" href="$class_tools_bar.html" title="ToolsBar" alt="" coords="284,373,356,403"/>
+<area shape="rect" href="$class_observer.html" title="Observer" alt="" coords="60,277,135,307"/>
+<area shape="rect" href="$class_controller_model.html" title="ControllerModel" alt="" coords="5,181,117,211"/>
+<area shape="rect" href="$class_abstract_model.html" title="AbstractModel" alt="" coords="9,85,113,115"/>
+<area shape="rect" href="$class_observable.html" title="Observable" alt="" coords="17,5,105,35"/>
+<area shape="rect" href="$class_status_bar.html" title="StatusBar" alt="" coords="313,181,393,211"/>
+</map>

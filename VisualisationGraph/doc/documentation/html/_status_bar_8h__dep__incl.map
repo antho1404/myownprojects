@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" href="$_main_frame_8h.html" title="src/view/MainFrame.h" alt="" coords="399,83,545,112"/>
+<area shape="rect" href="$_status_bar_8cpp.html" title="src/view/StatusBar.cpp" alt="" coords="569,83,724,112"/>
+<area shape="rect" href="$main_8cpp.html" title="src/main.cpp" alt="" coords="5,160,101,189"/>
+<area shape="rect" href="$_config_graph_8h.html" title="src/view/ConfigGraph.h" alt="" coords="125,160,280,189"/>
+<area shape="rect" href="$_main_frame_8cpp.html" title="src/view/MainFrame.cpp" alt="" coords="304,160,467,189"/>
+<area shape="rect" href="$_menu_bar_8h.html" title="src/view/MenuBar.h" alt="" coords="491,160,627,189"/>
+<area shape="rect" href="$_node_8cpp.html" title="src/view/Node.cpp" alt="" coords="651,160,779,189"/>
+<area shape="rect" href="$_tools_bar_8cpp.html" title="src/view/ToolsBar.cpp" alt="" coords="803,160,952,189"/>
+<area shape="rect" href="$_config_graph_8cpp.html" title="src/view/ConfigGraph.cpp" alt="" coords="117,237,288,267"/>
+<area shape="rect" href="$_menu_bar_8cpp.html" title="src/view/MenuBar.cpp" alt="" coords="484,237,633,267"/>
+</map>

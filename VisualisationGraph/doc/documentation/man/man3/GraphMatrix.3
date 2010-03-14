@@ -1,0 +1,318 @@
+.TH "GraphMatrix" 3 "1 Mar 2010" "Outil pÃ©dagogique pour la comprÃ©hension d'algorithmes de graphes" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+GraphMatrix \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <GraphMatrix.h>\fP
+.PP
+Inherits \fBGraph\fP.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBGraphMatrix\fP (int size)"
+.br
+.ti -1c
+.RI "\fBGraphMatrix\fP (int size, string name)"
+.br
+.ti -1c
+.RI "virtual \fB~GraphMatrix\fP ()"
+.br
+.ti -1c
+.RI "virtual void \fBaddEdge\fP (int nodeA, int nodeB)"
+.br
+.ti -1c
+.RI "virtual void \fBremoveEdge\fP (int nodeA, int nodeB)"
+.br
+.RI "\fIRemove edge in the graph. \fP"
+.ti -1c
+.RI "virtual int \fBaddNode\fP ()"
+.br
+.RI "\fIAdd a node to the graph. \fP"
+.ti -1c
+.RI "virtual void \fBremoveNode\fP (int node)"
+.br
+.RI "\fIRemove a node to the graph. \fP"
+.ti -1c
+.RI "virtual bool \fBisSuccessor\fP (int nodeA, int nodeB)"
+.br
+.RI "\fIFunction that permit to know if the nodeA is successor of the nodeB. \fP"
+.ti -1c
+.RI "virtual list< int > * \fBsuccessors\fP (int node)"
+.br
+.RI "\fIGet the successor of a node. \fP"
+.ti -1c
+.RI "virtual list< int > * \fBpredecessors\fP (int node)"
+.br
+.RI "\fIGet the predecessor of a node. \fP"
+.ti -1c
+.RI "virtual list< string * > * \fBgetSummits\fP ()"
+.br
+.RI "\fIfunction that permit to get all summit of the graph \fP"
+.ti -1c
+.RI "virtual void \fBsetState\fP (int node, int state)"
+.br
+.RI "\fIFunction that change the state of a node. \fP"
+.ti -1c
+.RI "virtual int \fBgetState\fP (int node)"
+.br
+.RI "\fIFunction that return the state of a node. \fP"
+.ti -1c
+.RI "virtual void \fBsetTag\fP (int node, string tag)"
+.br
+.RI "\fIFunction that change the tag of a node. \fP"
+.ti -1c
+.RI "virtual string \fBgetTag\fP (int node)"
+.br
+.RI "\fIFunction that return the tag of a node. \fP"
+.ti -1c
+.RI "virtual int \fBgetEdgeValue\fP (int nodeA, int nodeB)"
+.br
+.RI "\fIFunction that permit to know the value of the edge nodeA, nodeB. \fP"
+.ti -1c
+.RI "virtual void \fBsetEdgeValue\fP (int nodeA, int nodeB, int value)"
+.br
+.RI "\fIAssign a value to the edge nodeA, nodeB. \fP"
+.ti -1c
+.RI "virtual int \fBgetEdgeState\fP (int nodeA, int nodeB)"
+.br
+.RI "\fIFunction that permit to know the the state of the edge nodeA, nodeB. \fP"
+.ti -1c
+.RI "virtual void \fBsetEdgeState\fP (int nodeA, int nodeB, int state)"
+.br
+.RI "\fIAssign a state of the edge. \fP"
+.ti -1c
+.RI "void \fBshowGraph\fP ()"
+.br
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "GraphMatrix::GraphMatrix (int size)"
+.SS "GraphMatrix::GraphMatrix (int size, string name)"
+.SS "GraphMatrix::~GraphMatrix ()\fC [virtual]\fP"
+.SH "Member Function Documentation"
+.PP 
+.SS "void GraphMatrix::addEdge (int nodeA, int nodeB)\fC [virtual]\fP"Virtual methods from \fBGraph\fP class 
+.PP
+\fBSee also:\fP
+.RS 4
+\fBGraph\fP Class 
+.RE
+.PP
+
+.PP
+Implements \fBGraph\fP.
+.SS "int GraphMatrix::addNode ()\fC [virtual]\fP"
+.PP
+Add a node to the graph. \fBReturns:\fP
+.RS 4
+the number of the node 
+.RE
+.PP
+
+.PP
+Implements \fBGraph\fP.
+.SS "int GraphMatrix::getEdgeState (int nodeA, int nodeB)\fC [virtual]\fP"
+.PP
+Function that permit to know the the state of the edge nodeA, nodeB. \fBParameters:\fP
+.RS 4
+\fIsource\fP of the edge 
+.br
+\fIdestination\fP of the edge 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+the edge state of the edge nodeA, nodeB 
+.RE
+.PP
+
+.PP
+Implements \fBGraph\fP.
+.SS "int GraphMatrix::getEdgeValue (int nodeA, int nodeB)\fC [virtual]\fP"
+.PP
+Function that permit to know the value of the edge nodeA, nodeB. \fBParameters:\fP
+.RS 4
+\fIsource\fP of the edge 
+.br
+\fIdestination\fP of the edge 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+the value of the edge (nodeA, nodeB) 
+.RE
+.PP
+
+.PP
+Implements \fBGraph\fP.
+.SS "int GraphMatrix::getState (int node)\fC [virtual]\fP"
+.PP
+Function that return the state of a node. \fBParameters:\fP
+.RS 4
+\fIthe\fP node that we want to know the state 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+the state of the node given in paramtre 
+.RE
+.PP
+
+.PP
+Reimplemented from \fBGraph\fP.
+.SS "list< string * > * GraphMatrix::getSummits ()\fC [virtual]\fP"
+.PP
+function that permit to get all summit of the graph \fBReturns:\fP
+.RS 4
+the list of summit with the value, the tag and the state of the summit 
+.RE
+.PP
+
+.PP
+Reimplemented from \fBGraph\fP.
+.SS "string GraphMatrix::getTag (int node)\fC [virtual]\fP"
+.PP
+Function that return the tag of a node. \fBParameters:\fP
+.RS 4
+\fIthe\fP node that we want to know the tag 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+the state of the node given in paramtre 
+.RE
+.PP
+
+.PP
+Reimplemented from \fBGraph\fP.
+.SS "bool GraphMatrix::isSuccessor (int nodeA, int nodeB)\fC [virtual]\fP"
+.PP
+Function that permit to know if the nodeA is successor of the nodeB. \fBParameters:\fP
+.RS 4
+\fIa\fP node A of the graph 
+.br
+\fIa\fP node B of the graph 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+true if nodeA is a successor of nodeB, else return false 
+.RE
+.PP
+
+.PP
+Implements \fBGraph\fP.
+.SS "list< int > * GraphMatrix::predecessors (int node)\fC [virtual]\fP"
+.PP
+Get the predecessor of a node. \fBParameters:\fP
+.RS 4
+\fIbegin\fP node of the graph 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+a list with the predecessor of node 
+.RE
+.PP
+
+.PP
+Reimplemented from \fBGraph\fP.
+.SS "void GraphMatrix::removeEdge (int nodeA, int nodeB)\fC [virtual]\fP"
+.PP
+Remove edge in the graph. \fBParameters:\fP
+.RS 4
+\fIstart\fP node included in the graph 
+.br
+\fIend\fP node included in the graph 
+.RE
+.PP
+
+.PP
+Implements \fBGraph\fP.
+.SS "void GraphMatrix::removeNode (int node)\fC [virtual]\fP"
+.PP
+Remove a node to the graph. \fBParameters:\fP
+.RS 4
+\fInode\fP we want to remove 
+.RE
+.PP
+
+.PP
+Implements \fBGraph\fP.
+.SS "void GraphMatrix::setEdgeState (int nodeA, int nodeB, int state)\fC [virtual]\fP"
+.PP
+Assign a state of the edge. \fBParameters:\fP
+.RS 4
+\fIsource\fP of the edge 
+.br
+\fIdestination\fP of the edge 
+.br
+\fIstate\fP of the edge 
+.RE
+.PP
+
+.PP
+Implements \fBGraph\fP.
+.SS "void GraphMatrix::setEdgeValue (int nodeA, int nodeB, int value)\fC [virtual]\fP"
+.PP
+Assign a value to the edge nodeA, nodeB. \fBParameters:\fP
+.RS 4
+\fIsource\fP of the edge 
+.br
+\fIdestination\fP of the edge 
+.br
+\fIvalue\fP of the edge 
+.RE
+.PP
+
+.PP
+Implements \fBGraph\fP.
+.SS "void GraphMatrix::setState (int node, int state)\fC [virtual]\fP"
+.PP
+Function that change the state of a node. \fBParameters:\fP
+.RS 4
+\fIthe\fP node that we whant to change the state 
+.br
+\fIthe\fP new state of node 
+.RE
+.PP
+
+.PP
+Reimplemented from \fBGraph\fP.
+.SS "void GraphMatrix::setTag (int node, string tag)\fC [virtual]\fP"
+.PP
+Function that change the tag of a node. \fBParameters:\fP
+.RS 4
+\fIthe\fP node that we whant to change the tag 
+.br
+\fIthe\fP new tag of node 
+.RE
+.PP
+
+.PP
+Reimplemented from \fBGraph\fP.
+.SS "void GraphMatrix::showGraph ()\fC [inline]\fP"
+.SS "list< int > * GraphMatrix::successors (int node)\fC [virtual]\fP"
+.PP
+Get the successor of a node. \fBParameters:\fP
+.RS 4
+\fIbegin\fP node of the graph 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+a list with the successors of the node 
+.RE
+.PP
+
+.PP
+Reimplemented from \fBGraph\fP.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Outil pÃ©dagogique pour la comprÃ©hension d'algorithmes de graphes from the source code.

@@ -1,0 +1,127 @@
+.TH "MainFrame" 3 "1 Mar 2010" "Outil pÃ©dagogique pour la comprÃ©hension d'algorithmes de graphes" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+MainFrame \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <MainFrame.h>\fP
+.SS "Public Slots"
+
+.in +1c
+.ti -1c
+.RI "void \fBrunAlgo\fP ()"
+.br
+.ti -1c
+.RI "void \fBstopAlgo\fP ()"
+.br
+.ti -1c
+.RI "void \fBimportGraphFromFile\fP ()"
+.br
+.ti -1c
+.RI "void \fBimportGraph\fP ()"
+.br
+.ti -1c
+.RI "void \fBimportGraph\fP (string src)"
+.br
+.ti -1c
+.RI "void \fBnewGraph\fP ()"
+.br
+.ti -1c
+.RI "void \fBgenerateGraph\fP ()"
+.br
+.ti -1c
+.RI "void \fBexportGraph\fP ()"
+.br
+.ti -1c
+.RI "void \fBtoolsVisible\fP (bool b)"
+.br
+.ti -1c
+.RI "void \fBstateVisible\fP (bool b)"
+.br
+.ti -1c
+.RI "void \fBshowSmallWindow\fP (bool b)"
+.br
+.ti -1c
+.RI "void \fBshowFullScreen\fP (bool b)"
+.br
+.ti -1c
+.RI "void \fBannimateGraph\fP (bool b)"
+.br
+.ti -1c
+.RI "void \fBshowValues\fP (bool b)"
+.br
+.ti -1c
+.RI "void \fBchangeAlgoSpeed\fP (int speed)"
+.br
+.ti -1c
+.RI "void \fBchangeAlgoInteraction\fP (int flag)"
+.br
+.ti -1c
+.RI "list< string > * \fBgetAlgoList\fP ()"
+.br
+.ti -1c
+.RI "void \fBaddAlgo\fP ()"
+.br
+.ti -1c
+.RI "void \fBaddAlgo\fP (string src)"
+.br
+.ti -1c
+.RI "void \fBremoveAlgo\fP ()"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBMainFrame\fP (\fBAbstractModel\fP *m)"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBresizeEvent\fP (QResizeEvent *event)"
+.br
+.ti -1c
+.RI "void \fBcloseEvent\fP (QCloseEvent *)"
+.br
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "MainFrame::MainFrame (\fBAbstractModel\fP * m)"\fBAuthor:\fP
+.RS 4
+Estebe Anthony 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "void MainFrame::addAlgo (string src)\fC [slot]\fP"
+.SS "void MainFrame::addAlgo ()\fC [slot]\fP"
+.SS "void MainFrame::annimateGraph (bool b)\fC [slot]\fP"
+.SS "void MainFrame::changeAlgoInteraction (int flag)\fC [slot]\fP"
+.SS "void MainFrame::changeAlgoSpeed (int speed)\fC [slot]\fP"
+.SS "void MainFrame::closeEvent (QCloseEvent * event)\fC [protected]\fP"
+.SS "void MainFrame::exportGraph ()\fC [slot]\fP"
+.SS "void MainFrame::generateGraph ()\fC [slot]\fP"
+.SS "list< string > * MainFrame::getAlgoList ()\fC [slot]\fP"
+.SS "void MainFrame::importGraph (string src)\fC [slot]\fP"
+.SS "void MainFrame::importGraph ()\fC [slot]\fP"
+.SS "void MainFrame::importGraphFromFile ()\fC [slot]\fP"
+.SS "void MainFrame::newGraph ()\fC [slot]\fP"
+.SS "void MainFrame::removeAlgo ()\fC [slot]\fP"
+.SS "void MainFrame::resizeEvent (QResizeEvent * event)\fC [protected]\fP"
+.SS "void MainFrame::runAlgo ()\fC [slot]\fP"
+.SS "void MainFrame::showFullScreen (bool b)\fC [slot]\fP"
+.SS "void MainFrame::showSmallWindow (bool b)\fC [slot]\fP"
+.SS "void MainFrame::showValues (bool b)\fC [slot]\fP"
+.SS "void MainFrame::stateVisible (bool b)\fC [slot]\fP"
+.SS "void MainFrame::stopAlgo ()\fC [slot]\fP"
+.SS "void MainFrame::toolsVisible (bool b)\fC [slot]\fP"
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Outil pÃ©dagogique pour la comprÃ©hension d'algorithmes de graphes from the source code.

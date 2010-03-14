@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<graph name="Unknow">
+    <order>7</order>
+    <listNode>
+        <node num="0" tag="0" state="1" />
+        <node num="1" tag="1" state="1" />
+        <node num="2" tag="2" state="1" />
+        <node num="3" tag="3" state="1" />
+        <node num="4" tag="4" state="1" />
+        <node num="5" tag="5" state="1" />
+        <node num="6" tag="6" state="1" />
+    </listNode>
+    <listEdge>
+        <edge start="5" end="0" value="1" state="1" />
+        <edge start="0" end="2" value="1" state="1" />
+        <edge start="4" end="3" value="1" state="1" />
+        <edge start="0" end="4" value="1" state="1" />
+        <edge start="1" end="5" value="1" state="1" />
+        <edge start="5" end="6" value="1" state="1" />
+    </listEdge>
+</graph>

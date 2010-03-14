@@ -1,0 +1,523 @@
+.TH "Graph" 3 "1 Mar 2010" "Outil pÃ©dagogique pour la comprÃ©hension d'algorithmes de graphes" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Graph \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <Graph.h>\fP
+.PP
+Inherited by \fBGraphMatrix\fP.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBGraph\fP (int order)"
+.br
+.RI "\fIConstructor. \fP"
+.ti -1c
+.RI "\fBGraph\fP (int order, string name)"
+.br
+.RI "\fIConstructor. \fP"
+.ti -1c
+.RI "virtual \fB~Graph\fP ()"
+.br
+.RI "\fIDestroyer. \fP"
+.ti -1c
+.RI "virtual int \fBgetOrder\fP ()"
+.br
+.RI "\fIGet the order of the graph. \fP"
+.ti -1c
+.RI "void \fBsetOrder\fP (int order)"
+.br
+.RI "\fIInstantiate the order of the graph. \fP"
+.ti -1c
+.RI "virtual void \fBaddEdge\fP (int nodeA, int nodeB)=0"
+.br
+.RI "\fIAdd new edge in the graph. \fP"
+.ti -1c
+.RI "virtual void \fBremoveEdge\fP (int nodeA, int nodeB)=0"
+.br
+.RI "\fIRemove edge in the graph. \fP"
+.ti -1c
+.RI "virtual int \fBaddNode\fP ()=0"
+.br
+.RI "\fIAdd a node to the graph. \fP"
+.ti -1c
+.RI "virtual void \fBremoveNode\fP (int node)=0"
+.br
+.RI "\fIRemove a node to the graph. \fP"
+.ti -1c
+.RI "virtual bool \fBisSuccessor\fP (int nodeA, int nodeB)=0"
+.br
+.RI "\fIFunction that permit to know if the nodeA is successor of the nodeB. \fP"
+.ti -1c
+.RI "virtual list< int > * \fBsuccessors\fP (int node)"
+.br
+.RI "\fIGet the successor of a node. \fP"
+.ti -1c
+.RI "virtual int \fBnumberSuccessors\fP (int node)"
+.br
+.RI "\fIFunction that permit to know the number of successors. \fP"
+.ti -1c
+.RI "virtual bool \fBisPredecessor\fP (int nodeA, int nodeB)"
+.br
+.RI "\fIFunction that permit to know if the nodeA is predecessor of the nodeB. \fP"
+.ti -1c
+.RI "virtual list< int > * \fBpredecessors\fP (int node)"
+.br
+.RI "\fIGet the predecessor of a node. \fP"
+.ti -1c
+.RI "virtual int \fBnumberPredecessors\fP (int node)"
+.br
+.RI "\fIFunction that permit to know the number of predecessors. \fP"
+.ti -1c
+.RI "virtual bool \fBisNeighbor\fP (int nodeA, int nodeB)"
+.br
+.RI "\fIFunction that permit to know if the nodeA is a neighbor of the nodeB. \fP"
+.ti -1c
+.RI "virtual list< int > * \fBneighbors\fP (int node)"
+.br
+.RI "\fIFind the neighbors of a node. \fP"
+.ti -1c
+.RI "virtual int \fBnumberNeighbors\fP (int node)"
+.br
+.RI "\fIFunction that permit to know the number of neighbors. \fP"
+.ti -1c
+.RI "virtual int \fBgetEdgeValue\fP (int nodeA, int nodeB)=0"
+.br
+.RI "\fIFunction that permit to know the value of the edge nodeA, nodeB. \fP"
+.ti -1c
+.RI "virtual void \fBsetEdgeValue\fP (int nodeA, int nodeB, int value)=0"
+.br
+.RI "\fIAssign a value to the edge nodeA, nodeB. \fP"
+.ti -1c
+.RI "virtual int \fBgetEdgeState\fP (int nodeA, int nodeB)=0"
+.br
+.RI "\fIFunction that permit to know the the state of the edge nodeA, nodeB. \fP"
+.ti -1c
+.RI "virtual void \fBsetEdgeState\fP (int nodeA, int nodeB, int state)=0"
+.br
+.RI "\fIAssign a state of the edge. \fP"
+.ti -1c
+.RI "virtual bool \fBisSymmetric\fP (int nodeA, int nodeB)"
+.br
+.RI "\fIFunction that permits to know if an edge is symmetric. \fP"
+.ti -1c
+.RI "virtual list< int * > * \fBgetEdges\fP ()"
+.br
+.RI "\fIfunction that permit to get all edges of the graph \fP"
+.ti -1c
+.RI "virtual list< string * > * \fBgetSummits\fP ()"
+.br
+.RI "\fIfunction that permit to get all summit of the graph \fP"
+.ti -1c
+.RI "virtual void \fBsetState\fP (int node, int state)"
+.br
+.RI "\fIFunction that change the state of a node. \fP"
+.ti -1c
+.RI "virtual int \fBgetState\fP (int node)"
+.br
+.RI "\fIFunction that return the state of a node. \fP"
+.ti -1c
+.RI "virtual void \fBsetTag\fP (int node, string tag)"
+.br
+.RI "\fIFunction that change the tag of a node. \fP"
+.ti -1c
+.RI "virtual string \fBgetTag\fP (int node)"
+.br
+.RI "\fIFunction that return the tag of a node. \fP"
+.ti -1c
+.RI "virtual string \fBgetName\fP ()"
+.br
+.RI "\fIReturn the name of the graph. \fP"
+.ti -1c
+.RI "virtual void \fBsetName\fP (string name)"
+.br
+.RI "\fIFunction that permit to assign a name for the graph. \fP"
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Graph::Graph (int order)"
+.PP
+Constructor. \fBAuthor:\fP
+.RS 4
+Estebe Anthony
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fInumber\fP of summit of the graph 
+.RE
+.PP
+
+.SS "Graph::Graph (int order, string name)"
+.PP
+Constructor. \fBParameters:\fP
+.RS 4
+\fInumber\fP of summit of the graph 
+.br
+\fIname\fP of the graph 
+.RE
+.PP
+
+.SS "Graph::~Graph ()\fC [virtual]\fP"
+.PP
+Destroyer. 
+.SH "Member Function Documentation"
+.PP 
+.SS "void Graph::addEdge (int nodeA, int nodeB)\fC [pure virtual]\fP"
+.PP
+Add new edge in the graph. \fBParameters:\fP
+.RS 4
+\fIstart\fP node included in the graph 
+.br
+\fIend\fP node included in the graph 
+.RE
+.PP
+
+.PP
+Implemented in \fBGraphMatrix\fP.
+.SS "int Graph::addNode ()\fC [pure virtual]\fP"
+.PP
+Add a node to the graph. \fBReturns:\fP
+.RS 4
+the number of the node 
+.RE
+.PP
+
+.PP
+Implemented in \fBGraphMatrix\fP.
+.SS "list< int * > * Graph::getEdges ()\fC [virtual]\fP"
+.PP
+function that permit to get all edges of the graph \fBReturns:\fP
+.RS 4
+the list of edges 
+.RE
+.PP
+
+.SS "int Graph::getEdgeState (int nodeA, int nodeB)\fC [pure virtual]\fP"
+.PP
+Function that permit to know the the state of the edge nodeA, nodeB. \fBParameters:\fP
+.RS 4
+\fIsource\fP of the edge 
+.br
+\fIdestination\fP of the edge 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+the edge state of the edge nodeA, nodeB 
+.RE
+.PP
+
+.PP
+Implemented in \fBGraphMatrix\fP.
+.SS "int Graph::getEdgeValue (int nodeA, int nodeB)\fC [pure virtual]\fP"
+.PP
+Function that permit to know the value of the edge nodeA, nodeB. \fBParameters:\fP
+.RS 4
+\fIsource\fP of the edge 
+.br
+\fIdestination\fP of the edge 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+the value of the edge (nodeA, nodeB) 
+.RE
+.PP
+
+.PP
+Implemented in \fBGraphMatrix\fP.
+.SS "string Graph::getName ()\fC [virtual]\fP"
+.PP
+Return the name of the graph. \fBReturns:\fP
+.RS 4
+name of the graph 
+.RE
+.PP
+
+.SS "int Graph::getOrder ()\fC [virtual]\fP"
+.PP
+Get the order of the graph. \fBReturns:\fP
+.RS 4
+the order of the graph 
+.RE
+.PP
+
+.SS "int Graph::getState (int node)\fC [virtual]\fP"
+.PP
+Function that return the state of a node. \fBParameters:\fP
+.RS 4
+\fIthe\fP node that we want to know the state 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+the state of the node given in paramtre 
+.RE
+.PP
+
+.PP
+Reimplemented in \fBGraphMatrix\fP.
+.SS "list< string * > * Graph::getSummits ()\fC [virtual]\fP"
+.PP
+function that permit to get all summit of the graph \fBReturns:\fP
+.RS 4
+the list of summit with the value, the tag and the state of the summit 
+.RE
+.PP
+
+.PP
+Reimplemented in \fBGraphMatrix\fP.
+.SS "string Graph::getTag (int node)\fC [virtual]\fP"
+.PP
+Function that return the tag of a node. \fBParameters:\fP
+.RS 4
+\fIthe\fP node that we want to know the tag 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+the state of the node given in paramtre 
+.RE
+.PP
+
+.PP
+Reimplemented in \fBGraphMatrix\fP.
+.SS "bool Graph::isNeighbor (int nodeA, int nodeB)\fC [virtual]\fP"
+.PP
+Function that permit to know if the nodeA is a neighbor of the nodeB. \fBParameters:\fP
+.RS 4
+\fIa\fP node A of the graph 
+.br
+\fIa\fP node B of the graph 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+true if nodeA is a neighbor of nodeB, else return false 
+.RE
+.PP
+
+.SS "bool Graph::isPredecessor (int nodeA, int nodeB)\fC [virtual]\fP"
+.PP
+Function that permit to know if the nodeA is predecessor of the nodeB. \fBParameters:\fP
+.RS 4
+\fIa\fP node A of the graph 
+.br
+\fIa\fP node B of the graph 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+true if nodeA is a predecessor of nodeB, else return false 
+.RE
+.PP
+
+.SS "bool Graph::isSuccessor (int nodeA, int nodeB)\fC [pure virtual]\fP"
+.PP
+Function that permit to know if the nodeA is successor of the nodeB. \fBParameters:\fP
+.RS 4
+\fIa\fP node A of the graph 
+.br
+\fIa\fP node B of the graph 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+true if nodeA is a successor of nodeB, else return false 
+.RE
+.PP
+
+.PP
+Implemented in \fBGraphMatrix\fP.
+.SS "bool Graph::isSymmetric (int nodeA, int nodeB)\fC [virtual]\fP"
+.PP
+Function that permits to know if an edge is symmetric. \fBParameters:\fP
+.RS 4
+\fIstart\fP node of the graph 
+.br
+\fIend\fP node of the graph 
+.RE
+.PP
+
+.SS "list< int > * Graph::neighbors (int node)\fC [virtual]\fP"
+.PP
+Find the neighbors of a node. \fBParameters:\fP
+.RS 4
+\fIbegin\fP node of the graph 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+a list with all neighbors of node 
+.RE
+.PP
+
+.SS "int Graph::numberNeighbors (int node)\fC [virtual]\fP"
+.PP
+Function that permit to know the number of neighbors. \fBParameters:\fP
+.RS 4
+\fIbegin\fP node of the graph 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+the number of neighbors of node 
+.RE
+.PP
+
+.SS "int Graph::numberPredecessors (int node)\fC [virtual]\fP"
+.PP
+Function that permit to know the number of predecessors. \fBParameters:\fP
+.RS 4
+\fIbegin\fP node of the graph 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+the number of predecessors of node 
+.RE
+.PP
+
+.SS "int Graph::numberSuccessors (int node)\fC [virtual]\fP"
+.PP
+Function that permit to know the number of successors. \fBParameters:\fP
+.RS 4
+\fIbegin\fP node of the graph 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+the number of successors of node 
+.RE
+.PP
+
+.SS "list< int > * Graph::predecessors (int node)\fC [virtual]\fP"
+.PP
+Get the predecessor of a node. \fBParameters:\fP
+.RS 4
+\fIbegin\fP node of the graph 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+a list with the predecessor of node 
+.RE
+.PP
+
+.PP
+Reimplemented in \fBGraphMatrix\fP.
+.SS "void Graph::removeEdge (int nodeA, int nodeB)\fC [pure virtual]\fP"
+.PP
+Remove edge in the graph. \fBParameters:\fP
+.RS 4
+\fIstart\fP node included in the graph 
+.br
+\fIend\fP node included in the graph 
+.RE
+.PP
+
+.PP
+Implemented in \fBGraphMatrix\fP.
+.SS "void Graph::removeNode (int node)\fC [pure virtual]\fP"
+.PP
+Remove a node to the graph. \fBParameters:\fP
+.RS 4
+\fInode\fP we want to remove 
+.RE
+.PP
+
+.PP
+Implemented in \fBGraphMatrix\fP.
+.SS "void Graph::setEdgeState (int nodeA, int nodeB, int state)\fC [pure virtual]\fP"
+.PP
+Assign a state of the edge. \fBParameters:\fP
+.RS 4
+\fIsource\fP of the edge 
+.br
+\fIdestination\fP of the edge 
+.br
+\fIstate\fP of the edge 
+.RE
+.PP
+
+.PP
+Implemented in \fBGraphMatrix\fP.
+.SS "void Graph::setEdgeValue (int nodeA, int nodeB, int value)\fC [pure virtual]\fP"
+.PP
+Assign a value to the edge nodeA, nodeB. \fBParameters:\fP
+.RS 4
+\fIsource\fP of the edge 
+.br
+\fIdestination\fP of the edge 
+.br
+\fIvalue\fP of the edge 
+.RE
+.PP
+
+.PP
+Implemented in \fBGraphMatrix\fP.
+.SS "void Graph::setName (string name)\fC [virtual]\fP"
+.PP
+Function that permit to assign a name for the graph. \fBParameters:\fP
+.RS 4
+\fIname\fP of the graph 
+.RE
+.PP
+
+.SS "void Graph::setOrder (int order)"
+.PP
+Instantiate the order of the graph. \fBParameters:\fP
+.RS 4
+\fIorder\fP of the new graph 
+.RE
+.PP
+
+.SS "void Graph::setState (int node, int state)\fC [virtual]\fP"
+.PP
+Function that change the state of a node. \fBParameters:\fP
+.RS 4
+\fIthe\fP node that we whant to change the state 
+.br
+\fIthe\fP new state of node 
+.RE
+.PP
+
+.PP
+Reimplemented in \fBGraphMatrix\fP.
+.SS "void Graph::setTag (int node, string tag)\fC [virtual]\fP"
+.PP
+Function that change the tag of a node. \fBParameters:\fP
+.RS 4
+\fIthe\fP node that we whant to change the tag 
+.br
+\fIthe\fP new tag of node 
+.RE
+.PP
+
+.PP
+Reimplemented in \fBGraphMatrix\fP.
+.SS "list< int > * Graph::successors (int node)\fC [virtual]\fP"
+.PP
+Get the successor of a node. \fBParameters:\fP
+.RS 4
+\fIbegin\fP node of the graph 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+a list with the successors of the node 
+.RE
+.PP
+
+.PP
+Reimplemented in \fBGraphMatrix\fP.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Outil pÃ©dagogique pour la comprÃ©hension d'algorithmes de graphes from the source code.

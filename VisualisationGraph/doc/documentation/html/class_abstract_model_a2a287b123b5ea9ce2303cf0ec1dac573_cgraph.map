@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" href="$class_graph.html#aaff1cd439b2d8aa39910741a34c72d4d" title="function that permit to get all edges of the graph" alt="" coords="261,87,381,116"/>
+<area shape="rect" href="$class_graph.html#a6707f01afb727e8e5ca93e140a3316cc" title="Get the order of the graph." alt="" coords="452,165,567,195"/>
+<area shape="rect" href="$class_graph.html#a2c38bbfd88b1f59f2cb10b1e9106c8bd" title="function that permit to get all summit of the graph" alt="" coords="255,191,388,220"/>
+<area shape="rect" href="$class_graph.html#adad06e54e2163cfeb80415123bc88c25" title="Function that permit to know the the state of the edge nodeA, nodeB." alt="" coords="437,5,581,35"/>
+<area shape="rect" href="$class_graph.html#a91fad353cc4f8e604db8fb4c24c5ab8a" title="Function that permit to know the value of the edge nodeA, nodeB." alt="" coords="437,59,581,88"/>
+<area shape="rect" href="$class_graph.html#a268f7e763ddc3b04bdd4296a25362cc9" title="Function that permit to know if the nodeA is successor of the nodeB." alt="" coords="441,112,577,141"/>
+</map>

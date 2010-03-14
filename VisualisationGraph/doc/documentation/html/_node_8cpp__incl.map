@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" href="$_edge_8h.html" title="Edge.h" alt="" coords="704,83,765,112"/>
+<area shape="rect" href="$_node_8h.html" title="Node.h" alt="" coords="789,83,851,112"/>
+<area shape="rect" href="$_graph_widget_8h.html" title="GraphWidget.h" alt="" coords="907,160,1013,189"/>
+<area shape="rect" href="$_main_frame_8h.html" title="MainFrame.h" alt="" coords="1976,83,2072,112"/>
+<area shape="rect" href="$_status_bar_8h.html" title="StatusBar.h" alt="" coords="1375,160,1465,189"/>
+<area shape="rect" href="$_tools_bar_8h.html" title="ToolsBar.h" alt="" coords="1631,160,1713,189"/>
+<area shape="rect" href="$_menu_bar_8h.html" title="MenuBar.h" alt="" coords="2061,160,2144,189"/>
+<area shape="rect" href="$_config_graph_8h.html" title="ConfigGraph.h" alt="" coords="1883,160,1987,189"/>
+</map>

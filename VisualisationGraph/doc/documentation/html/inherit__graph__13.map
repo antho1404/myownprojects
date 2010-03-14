@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" href="$class_observer.html" title="Observer" alt="" coords="5,32,80,61"/>
+<area shape="rect" href="$class_console.html" title="Console" alt="" coords="143,5,209,35"/>
+<area shape="rect" href="$class_graph_widget.html" title="GraphWidget" alt="" coords="128,59,224,88"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" href="$class_controller_model.html#a74f04add49f662a428b1e32e98e4c419" title="ControllerModel::getAlgoList" alt="" coords="232,87,416,116"/>
+<area shape="rect" href="$class_main_frame.html#a34510cced55100c21b0e779fe924fb7e" title="MainFrame::getAlgoList" alt="" coords="465,60,623,89"/>
+<area shape="rect" href="$class_main_frame.html#a481ff5d57b27da267ecb124f92a519a8" title="MainFrame::removeAlgo" alt="" coords="867,112,1029,141"/>
+<area shape="rect" href="$class_tools_bar.html#a0d441f9fdb43416fbeaebefa75ae08fe" title="ToolsBar::updateAlgo" alt="" coords="673,60,817,89"/>
+<area shape="rect" href="$class_main_frame.html#a7d91db5a6b1cc3ade967bffd4e42fc7a" title="MainFrame::addAlgo" alt="" coords="879,5,1017,35"/>
+<area shape="rect" href="$class_tools_bar.html#a24acdfb3ba59c94cb2251b3b192ba39b" title="ToolsBar::ToolsBar" alt="" coords="883,59,1013,88"/>
+<area shape="rect" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1079,5,1127,35"/>
+</map>

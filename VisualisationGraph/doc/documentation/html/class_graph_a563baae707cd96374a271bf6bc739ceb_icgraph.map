@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" href="$class_model.html#a002b7fb9b3157953478b3f85b35ae5e4" title="Model::createGraph" alt="" coords="179,5,315,35"/>
+<area shape="rect" href="$class_graph.html#a88318feb4aeae675c1538bf8fd760657" title="Find the neighbors of a node." alt="" coords="187,59,307,88"/>
+<area shape="rect" href="$class_graph.html#ac6641914217c59da2ace9826456d1b02" title="Function that permit to know the number of neighbors." alt="" coords="363,59,528,88"/>
+</map>

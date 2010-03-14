@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" href="$class_model.html#af0a97c4b9c9688f9bcf2b3015e63d414" title="Model::addNode" alt="" coords="192,5,307,35"/>
+<area shape="rect" href="$class_algo_utils.html#a1b5de3e80368918fb0251ed5f84cf39d" title="AlgoUtils::chooseNode" alt="" coords="173,213,325,243"/>
+<area shape="rect" href="$class_test.html#af8ae56575798232ef14b1a06603fa81e" title="Test::run" alt="" coords="440,112,512,141"/>
+<area shape="rect" href="$class_numerotation__compatible.html#ab169240767e748e761321713295b5534" title="Numerotation_compatible::run" alt="" coords="379,177,573,207"/>
+<area shape="rect" href="$class_deep_search.html#a591871d2e5b18e22a149bb433116541c" title="DeepSearch::run" alt="" coords="417,253,535,283"/>
+<area shape="rect" href="$class_graph_x_m_l.html#a32b6521959f9474a8a308677e3ec230b" title="GraphXML::importGraph" alt="" coords="168,317,331,347"/>
+<area shape="rect" href="$class_algo_utils.html#ae5fb1a8757a4d5bf395f2a53590cbb45" title="AlgoUtils::initAlgo" alt="" coords="188,59,311,88"/>
+<area shape="rect" href="$class_model.html#a9628bfb04212853467a715c94510abcf" title="Model::runAlgo" alt="" coords="423,59,529,88"/>
+</map>

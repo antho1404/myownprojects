@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" href="$class_algo.html" title="Algo" alt="" coords="5,181,53,211"/>
+<area shape="rect" href="$class_algo_utils.html" title="AlgoUtils" alt="" coords="77,181,149,211"/>
+<area shape="rect" href="$class_abstract_model.html" title="AbstractModel" alt="" coords="61,85,165,115"/>
+<area shape="rect" href="$class_observable.html" title="Observable" alt="" coords="69,5,157,35"/>
+</map>
