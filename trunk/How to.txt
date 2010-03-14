@@ -1,0 +1,10 @@
+Librairie requises : 
+	- Qt4.6
+	- qmake
+	
+Pour compiler : 
+	- cd src
+	- qmake
+	- make
+	- ./VisualisationGraphe
+
