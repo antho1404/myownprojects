@@ -4,7 +4,6 @@
 #include "GroupPermutation.h"
 #include "BruteForce.h"
 #include "Heuristique.h"
-#include <iostream>
 
 using namespace std;
 
